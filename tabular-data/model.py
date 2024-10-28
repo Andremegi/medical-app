@@ -34,12 +34,13 @@ def preprocessing_model_tabular_data(df):
     return preprocessed_data_X, y_encoded
 
 #Encode the target and model with the preprocess data
-def modeling(X):
+def modeling(df):
 
-    model = LogisticRegression.fit(preprocessing_model_tabular_data(X)[0], preprocessing_model_tabular_data(X)[1])
+    model_path = os.path.join(ROOT_PATH, 'models', 'mvp_model.pkl')
+    model = LogisticRegression.fit(preprocessing_model_tabular_data(df)[0], preprocessing_model_tabular_data(df)[1])
 
     # Export the model as a pickle file, we might need to create a models folder on the taabolar data folder
-    with open('../models/mvp_tabular_data.pkl', 'wb') as file:
+    with open(model_path, 'wb') as file:
         pickle.dump(model, file)
 
 def prediction_tabular_data(gender,age, smoking,yellow_fingers, anxiety, chronic_disease, fatigue, allergy, wheezing, alcoholl, coughing, shortness_breath,swalloging_difficulty, chest_pain):

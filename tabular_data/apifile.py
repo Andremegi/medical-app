@@ -13,6 +13,9 @@ def root():
 def predict(gender,age, smoking,yellow_fingers, anxiety, peer_pressure, chronic_disease, fatigue, allergy, wheezing, alcoholl, coughing, shortness_breath,swalloging_difficulty, chest_pain):
     #Get the prediction with the information that we provide
     response = prediction_tabular_data(gender,age, smoking,yellow_fingers, anxiety, peer_pressure, chronic_disease, fatigue, allergy, wheezing, alcoholl, coughing, shortness_breath,swalloging_difficulty, chest_pain)[0]
+
+    # When response == 1 , the it means you have cancer , when 0 , then you dont have
+    #I'm  doing this to have a response that is understandable .
     if response == 1:
         response_translated = 'You have lung cancer '
     if response == 0:

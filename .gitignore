@@ -34,3 +34,6 @@ mlruns
 *_challengify*
 .env
 .env.yaml
+
+#pycache
+tabular_data/__pycache__

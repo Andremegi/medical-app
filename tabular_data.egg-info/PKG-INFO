@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: tabular_data
-Version: 0.0.1
-Requires-Dist: fastapi
-Requires-Dist: uvicorn
-Requires-Dist: streamlit
-Requires-Dist: scikit-learn
-Requires-Dist: pandas

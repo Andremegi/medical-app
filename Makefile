@@ -20,3 +20,6 @@ docker_deploy_cloud:
 		--memory $(GAR_MEMORY) \
 		--region $(GCP_REGION) \
 		--env-vars-file .env.yaml
+
+streamlit:
+	-@streamlit run frontend/frontend_file.py

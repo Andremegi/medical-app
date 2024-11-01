@@ -3,3 +3,5 @@ uvicorn
 streamlit
 scikit-learn
 pandas
+torch
+torchvision

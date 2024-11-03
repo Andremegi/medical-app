@@ -5,7 +5,7 @@ with open("requirements.txt") as f:
 requirements = [x.strip() for x in content if "git+" not in x]
 
 setup(
-    name='tabular_data',
+    name='mediacal_app',
     version="0.0.1",
     install_requires=requirements,
     packages=find_packages()

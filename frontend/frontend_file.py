@@ -5,27 +5,27 @@ import torch
 from torchvision import models, transforms
 
 # Load a pre-trained model (e.g., ResNet)
-model = models.resnet50(pretrained=True)
-model.eval()
+# model = models.resnet50(pretrained=True)
+# model.eval()
 
-# Define transformation to preprocess the uploaded image
-preprocess = transforms.Compose([
-    transforms.Resize(256),
-    transforms.CenterCrop(224),
-    transforms.ToTensor(),
-    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
-])
+# # Define transformation to preprocess the uploaded image
+# preprocess = transforms.Compose([
+#     transforms.Resize(256),
+#     transforms.CenterCrop(224),
+#     transforms.ToTensor(),
+#     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+# ])
 
-# Define a function for image classification
-def classify_image(image):
-    # Preprocess the image
-    image = preprocess(image).unsqueeze(0)
-    # Get prediction
-    with torch.no_grad():
-        output = model(image)
-    # Get the label
-    _, predicted_idx = torch.max(output, 1)
-    return predicted_idx.item()
+# # Define a function for image classification
+# def classify_image(image):
+#     # Preprocess the image
+#     image = preprocess(image).unsqueeze(0)
+#     # Get prediction
+#     with torch.no_grad():
+#         output = model(image)
+#     # Get the label
+#     _, predicted_idx = torch.max(output, 1)
+#     return predicted_idx.item()
 
 # Streamlit interface
 st.title("Image Recognition with Streamlit")
@@ -39,7 +39,22 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.image(image, caption="Uploaded Image", use_column_width=True)
 
-     # Classify image
-    st.write("Classifying...")
-    label_idx = classify_image(image)
-    st.write(f"Predicted label index: {label_idx}")
+    # Convert the uploaded file to bytes for the API request
+    uploaded_file.seek(0)  # Reset the file pointer to the beginning
+    file_bytes = uploaded_file.read()  # Read file content as bytes
+
+    # Prepare the file for sending
+    files = {
+        "file": (uploaded_file.name, file_bytes, uploaded_file.type)
+    }
+
+    # Send the image to the API
+    response = requests.post("http://127.0.0.1:8000/upload-image/", files=files)
+
+    if response.status_code == 200:
+        # Process the response from the API
+        result = response.json()
+        st.write("Image processed and predicted !")
+        st.write(f"Predicted class: {result['label']}")
+    else:
+        st.write("Failed to upload the image to the API.")

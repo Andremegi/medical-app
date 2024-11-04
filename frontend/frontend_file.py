@@ -43,3 +43,19 @@ if uploaded_file is not None:
     st.write("Classifying...")
     label_idx = classify_image(image)
     st.write(f"Predicted label index: {label_idx}")
+
+# Prepare the image for sending to the API
+    # The uploaded_file is already in bytes-like format
+    files = {"file": (uploaded_file.name, uploaded_file, uploaded_file.type)}
+
+    # Send the image to the API
+    response = requests.post("http://127.0.0.1:8000/upload-image/", files=files)
+
+    if response.status_code == 200:
+        # Process the response from the API
+        result = response.json()
+        st.write("Image saved successfully!")
+        st.write(f"Filename: {result['filename']}")
+        st.write(f"Saved path: {result['path']}")
+    else:
+        st.write("Failed to upload the image to the API.")

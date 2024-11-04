@@ -22,4 +22,7 @@ async def upload_image(file: UploadFile = File(...)):
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
 
-    return {"filename": file.filename, "path": file_path}
+    result = {"filename": file.filename, "path": file_path}
+    os.remove(file_path)
+
+    return result

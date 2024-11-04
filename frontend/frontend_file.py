@@ -39,14 +39,14 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.image(image, caption="Uploaded Image", use_column_width=True)
 
-     # Classify image
-    # st.write("Classifying...")
-    # label_idx = classify_image(image)
-    # st.write(f"Predicted label index: {label_idx}")
+    # Convert the uploaded file to bytes for the API request
+    uploaded_file.seek(0)  # Reset the file pointer to the beginning
+    file_bytes = uploaded_file.read()  # Read file content as bytes
 
-# Prepare the image for sending to the API
-    # The uploaded_file is already in bytes-like format
-    files = {"file": (uploaded_file.name, uploaded_file, uploaded_file.type)}
+    # Prepare the file for sending
+    files = {
+        "file": (uploaded_file.name, file_bytes, uploaded_file.type)
+    }
 
     # Send the image to the API
     response = requests.post("http://127.0.0.1:8000/upload-image/", files=files)
@@ -54,8 +54,7 @@ if uploaded_file is not None:
     if response.status_code == 200:
         # Process the response from the API
         result = response.json()
-        st.write("Image saved successfully!")
-        st.write(f"Filename: {result['filename']}")
-        st.write(f"Saved path: {result['path']}")
+        st.write("Image processed and predicted !")
+        st.write(f"Predicted class: {result['label']}")
     else:
         st.write("Failed to upload the image to the API.")

@@ -5,6 +5,7 @@ WORKDIR /app
 COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY tabular_data tabular_data
+COPY images images
+COPY models models
 
-CMD uvicorn tabular_data.apifile:app --host 0.0.0.0 --port $PORT
+CMD uvicorn images.apifile:app --host 0.0.0.0 --port $PORT

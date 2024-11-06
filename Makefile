@@ -1,5 +1,5 @@
 run_api:
-	uvicorn tabular_data.apifile:app --reload
+	uvicorn images.api:app --reload
 
 docker_build_local:
 	@docker build --tag $(GAR_IMAGE):dev .
@@ -19,7 +19,7 @@ docker_deploy_cloud:
 	gcloud run deploy --image $(GCP_REGION)-docker.pkg.dev/$(GCP_PROJECT)/medicalapp/$(GAR_IMAGE):prod \
 		--memory $(GAR_MEMORY) \
 		--region $(GCP_REGION) \
-		--env-vars-file .env.yaml
+		# --env-vars-file .env.yaml
 
 streamlit:
 	-@streamlit run frontend/frontend_file.py

@@ -19,7 +19,17 @@ def predict(model, image_path):
 
     # Predict class
     predictions = model.predict(img_array)
-    class_idx = np.argmax(predictions, axis=1)[0]
-    class_labels = ['Normal', 'Lung Opacity', 'Viral Pneumonia']  # Update as per your model classes
 
-    return class_labels[class_idx], predictions
+    # Identify the index of the highest probability
+    class_idx = np.argmax(predictions, axis=1)[0]
+
+    # Define class labels
+    class_labels = ['Normal', 'Lung Opacity', 'Viral Pneumonia']
+
+    # Map each class to its prediction probability
+    predictions_per_label = {class_labels[i]: float(predictions[0][i]) for i in range(len(class_labels))}
+
+    # Get the best label
+    best_label = class_labels[class_idx]
+
+    return best_label, predictions_per_label

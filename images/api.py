@@ -8,11 +8,17 @@ from images.logic.model import load, predict
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Permettre l'accès depuis toutes les origines (changer "*" pour un domaine spécifique)
+    allow_origins=[
+        "*"
+    ],  # Permettre l'accès depuis toutes les origines (changer "*" pour un domaine spécifique)
     allow_credentials=True,
     allow_methods=["*"],  # Permettre tous les types de requêtes (GET, POST, etc.)
     allow_headers=["*"],  # Permettre tous les headers
 )
+
+# Preload model and keep it in state
+app.state.model = load()
+
 
 @app.post("/upload-image/")
 async def upload_image(file: UploadFile = File(...)):
@@ -28,12 +34,12 @@ async def upload_image(file: UploadFile = File(...)):
         buffer.write(content)  # Write content to the local file
 
     # Predicting
-    model = load()
+    model = app.state.model
 
-    label, probability = predict(model, image_path)
-    print(f"Predicted label: {label}")
-    print(f"Predicted probabilities: {probability}")
+    best_label, predictions_per_label = predict(model, image_path)
+    print(f"Predicted label: {best_label}")
+    print(f"Predicted probabilities: {predictions_per_label}")
 
     os.remove(image_path)
 
-    return {"label": label}
+    return {"best_label": best_label, "predictions_per_label": predictions_per_label}

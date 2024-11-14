@@ -2,6 +2,7 @@ import os
 import numpy as np
 from tensorflow.keras.preprocessing.text import  Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
+from keras.api.models import load_model
 import pickle
 
 def preprocessing(symptoms):
@@ -21,7 +22,7 @@ def preprocessing(symptoms):
     return symptoms_padded
 
 
-def load_model():
+def load():
     '''
     Loads the saved model
     '''
@@ -48,7 +49,7 @@ def predict(symptoms):
     preprocessed_symptoms = preprocessing(symptoms)
 
     #load the model
-    model = load_model()
+    model = load()
 
     # make the prediction
     prediction = model.predict(preprocessed_symptoms)

@@ -1,5 +1,6 @@
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
+from text_data.model import predict_disease
 import shutil
 import os
 
@@ -19,6 +20,9 @@ app.add_middleware(
 # Preload model and keep it in state
 app.state.model = load()
 
+@app.get('/')
+def root():
+    return {'hello': 'team'}
 
 @app.post("/upload-image/")
 async def upload_image(file: UploadFile = File(...)):
@@ -43,3 +47,10 @@ async def upload_image(file: UploadFile = File(...)):
     os.remove(image_path)
 
     return {"best_label": best_label, "predictions_per_label": predictions_per_label}
+
+
+@app.get('/symptoms')
+def predict(symptoms):
+    prediction , probability = predict_disease(symptoms)
+    print('disease', prediction)
+    return {'disease': prediction, 'probability': str(probability)}

@@ -15,7 +15,7 @@ def preprocessing(symptoms):
 
     with open(tokienizer_path, 'rb') as handle:
         tk = pickle.load(handle)
-
+    symptoms = [symptoms]
     symptoms_tokenized = tk.texts_to_sequences(symptoms) #tokenization of the symptoms that users introduce
     symptoms_padded = pad_sequences(symptoms_tokenized, padding='pre') # forward padding of the tokenized sequence
 
@@ -33,7 +33,7 @@ def load():
 
     return model
 
-def predict(symptoms):
+def predict_disease(symptoms):
     '''
     Predict what is the desease that seems that correspond with the
     given symptoms
@@ -55,8 +55,12 @@ def predict(symptoms):
     prediction = model.predict(preprocessed_symptoms)
 
     # get the index of the max probability
-    max_prob = np.argmax(prediction)
+    max_prob_index = np.argmax(prediction)
+    max_prob = np.max(prediction)*100
 
     #look for the index in our deseases
-    disease = diseases[max_prob]
+    disease = diseases[max_prob_index]
+
+
+    print('disease', disease)
     return disease, max_prob

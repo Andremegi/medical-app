@@ -5,3 +5,6 @@ scikit-learn
 pandas
 tensorflow
 python-multipart
+google-cloud-storage==2.14.0
+transformers
+torch

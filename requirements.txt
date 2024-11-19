@@ -3,7 +3,5 @@ uvicorn
 streamlit
 scikit-learn
 pandas
-torch
-torchvision
 tensorflow
 python-multipart

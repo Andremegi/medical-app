@@ -10,13 +10,13 @@ docker_run_local:
 docker_build_cloud:
 	@docker build \
 		--platform linux/amd64 \
-		-t $(GCP_REGION)-docker.pkg.dev/$(GCP_PROJECT)/medicalapp/$(GAR_IMAGE):prod .
+		-t $(GCP_REGION)-docker.pkg.dev/$(GCP_PROJECT)/$(ARTIFACTSREPO)/$(GAR_IMAGE):prod .
 
 docker_push_cloud:
-	@docker push $(GCP_REGION)-docker.pkg.dev/$(GCP_PROJECT)/medicalapp/$(GAR_IMAGE):prod
+	@docker push $(GCP_REGION)-docker.pkg.dev/$(GCP_PROJECT)/$(ARTIFACTSREPO)/$(GAR_IMAGE):prod
 
 docker_deploy_cloud:
-	gcloud run deploy --image $(GCP_REGION)-docker.pkg.dev/$(GCP_PROJECT)/medicalapp/$(GAR_IMAGE):prod \
+	gcloud run deploy --image $(GCP_REGION)-docker.pkg.dev/$(GCP_PROJECT)/$(ARTIFACTSREPO)/$(GAR_IMAGE):prod \
 		--memory $(GAR_MEMORY) \
 		--region $(GCP_REGION) \
 		# --env-vars-file .env.yaml

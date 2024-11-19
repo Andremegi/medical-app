@@ -22,4 +22,4 @@ docker_deploy_cloud:
 		# --env-vars-file .env.yaml
 
 streamlit:
-	-@streamlit run frontend/frontend_file.py
+	-@streamlit run frontend/1_🫁homepage.py

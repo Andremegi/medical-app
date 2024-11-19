@@ -2,8 +2,12 @@ import streamlit as st
 import os
 
 
-st.set_page_config(page_title="Homepage for Medical-app")
-st.image("docs/logo.png")
+st.set_page_config(page_title="Homepage for Medical-app",
+                   page_icon='🫁')
+
+dir_path = os.path.dirname(__file__)
+image_folder_path = os.path.join(dir_path, "docs", "logo.png")
+st.image(image_folder_path)
 
 st.markdown(
     "<h2 style='text-align: center;'>BREATHE AGAIN 🌬️</h2>", unsafe_allow_html=True
@@ -34,10 +38,17 @@ st.markdown(
 st.markdown(
     """
     <style>
+    .stImage {
+        justify-content: center;
+        text-align: center;
+        display: block;
+        margin-left: 100;
+        margin-right: 100;
+    }
     .stButton > button {
         margin: auto; /* Center horizontally */
         display: block;
-        background-color: #28a745; /* Success Green */
+        background-color: #4daab2; /* Success Green */
         color: white;
         font-size: 16px;
         padding: 10px 20px;
@@ -46,16 +57,19 @@ st.markdown(
         cursor: pointer;
     }
     .stButton > button:hover {
-        background-color: #218838; /* Darker Green */
+        background-color: #FFFFFF; /* WHITE */
+        color: #4daab2; /* Success Green */
+        border-style: solid;
+        border-radius: 8px;
+        border-color: #4daab2;
+
+
     }
     </style>
     """,
     unsafe_allow_html=True,
 )
 
-# Create columns to center the button
-# col1, col2, col3 = st.columns([1, 2, 2]) # Center button in the middle column
 
-# with col2:
 if st.button("Start analysis"):
     st.switch_page("pages/2_☢️Images_analysis.py")  # Switch to the target page

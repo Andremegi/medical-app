@@ -1,5 +1,6 @@
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
+from chat_bot.model import chat_with_bot, load_model_tokenizer_from_gcs
 from text_data.model import predict_disease
 import shutil
 import os
@@ -19,6 +20,7 @@ app.add_middleware(
 
 # Preload model and keep it in state
 app.state.model = load()
+app.state.model_chat, app.state.tokenizer_chat = load_model_tokenizer_from_gcs()
 
 @app.get('/')
 def root():
@@ -50,7 +52,12 @@ async def upload_image(file: UploadFile = File(...)):
 
 
 @app.get('/symptoms')
-def predict(symptoms):
+def predict_symptoms(symptoms):
     prediction , probability = predict_disease(symptoms)
     print('disease', prediction)
     return {'disease': prediction, 'probability': str(probability)}
+
+@app.get('/chat-bot')
+def chat_bot(user_input, chat_history=None):
+    response, chat_history = chat_with_bot(app.state.model_chat, app.state.tokenizer_chat, user_input, chat_history)
+    return {'response': response, 'chat_history': chat_history}

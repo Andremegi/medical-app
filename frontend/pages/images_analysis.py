@@ -4,6 +4,20 @@ from PIL import Image
 import pandas as pd
 from modules.nav import Navbar
 
+def colors(probs):
+    colors=[]
+    for label, probability in sorted(probs.items()):
+        print(label)
+
+        if probability <= 0.15:
+            colors.append('#8B0000')
+        if probability <= 0.6 and probability > 0.15:
+            colors.append('#FF8C00')
+        if probability > 0.6:
+            colors.append('#006400')
+
+    print(colors)
+    return colors
 
 def main():
     Navbar()
@@ -45,11 +59,13 @@ def main():
                 st.write(f"{label}: {probability * 100:.2f}%")
 
             predictions_per_label_df = pd.DataFrame(predictions_per_label, index=[0])
-
+            print(predictions_per_label_df)
             st.bar_chart(predictions_per_label_df,
                          x_label = 'Diseases',
-                         y_label ='Probability',                      horizontal=False,
-                         stack=False)
+                         y_label ='Probability',
+                         horizontal=False,
+                         stack=False,
+                         color = colors(predictions_per_label))
 
 
         else:

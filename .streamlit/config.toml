@@ -1,6 +1,2 @@
-<<<<<<< HEAD
 [client]
-=======
-[config]
->>>>>>> a6c1efe (Adding streamlit configuration)
 showSidebarNavigation = false

@@ -16,7 +16,7 @@ def main():
         """,
     )
     params = {"symptoms": txt}
-    url_text = "https://textdata-gjldcvjueq-ew.a.run.app/symptoms"
+    url_text = "https://backend-1041725143942.europe-west1.run.app/symptoms"
 
     if st.button("Predict"):
 

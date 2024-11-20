@@ -17,12 +17,13 @@ docker_push_cloud:
 
 docker_deploy_cloud:
 	gcloud run deploy --image $(GCP_REGION)-docker.pkg.dev/$(GCP_PROJECT)/$(ARTIFACTSREPO)/$(GAR_IMAGE):prod \
+		--timeout=300 \
 		--memory $(GAR_MEMORY) \
 		--region $(GCP_REGION) \
 		--env-vars-file .env.yaml
 
 streamlit:
-	-@streamlit run frontend/1_🫁homepage.py
+	-@streamlit run frontend/streamlit_app.py
 
 ################### DATA SOURCES ACTIONS ################
 

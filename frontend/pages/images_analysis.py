@@ -98,6 +98,10 @@ def main():
         background-color: #D3D3D3;
 
     }
+    .stButton > button{
+        background-color: #4daab2; /* Success Green */
+        color : white;
+    }
 
     }
     </style>

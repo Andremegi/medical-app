@@ -6,7 +6,7 @@ from modules.nav import Navbar
 def main():
     Navbar()
 
-    st.title(f"Homepage for Medical-app")
+
 
     dir_path = os.path.dirname(__file__)
     image_folder_path = os.path.join(dir_path, "docs", "logo.png")
@@ -74,7 +74,7 @@ def main():
     )
 
     if st.button("Start analysis"):
-        st.switch_page("pages/2_☢️Images_analysis.py")  # Switch to the target page
+        st.switch_page("pages/images_analysis.py")  # Switch to the target page
 
 
 if __name__ == "__main__":

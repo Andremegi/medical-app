@@ -17,7 +17,7 @@ def main():
     if uploaded_file is not None:
         # Display the uploaded image
         image = Image.open(uploaded_file)
-        st.image(image, caption="Uploaded Image", use_column_width=True)
+        st.image(image, caption="Uploaded Image", use_container_width=True)
 
         # Convert the uploaded file to bytes for the API request
         uploaded_file.seek(0)  # Reset the file pointer to the beginning
@@ -27,7 +27,9 @@ def main():
         files = {"file": (uploaded_file.name, file_bytes, uploaded_file.type)}
 
         # Send the image to the API
-        url = "https://backend-1041725143942.europe-west1.run.app/upload-image/"
+        #url = 'http://localhost:8000/upload-image/'
+        url = 'https://backend-1041725143942.europe-west1.run.app/upload-image/'
+
         response = requests.post(url, files=files)
 
         if response.status_code == 200:
@@ -44,7 +46,11 @@ def main():
 
             predictions_per_label_df = pd.DataFrame(predictions_per_label, index=[0])
 
-            st.bar_chart(predictions_per_label_df, horizontal=False, stack=True)
+            st.bar_chart(predictions_per_label_df,
+                         x_label = 'Diseases',
+                         y_label ='Probability',                      horizontal=False,
+                         stack=False)
+
 
         else:
             st.error("Failed to upload the image to the API.")

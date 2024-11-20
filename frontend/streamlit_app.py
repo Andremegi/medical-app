@@ -74,7 +74,7 @@ def main():
     )
 
     if st.button("Start analysis"):
-        st.switch_page("pages/2_☢️Images_analysis.py")  # Switch to the target page
+        st.switch_page("pages/images_analysis.py")  # Switch to the target page
 
 
 if __name__ == "__main__":

@@ -69,14 +69,21 @@ def main():
         else:
             st.error("Failed to upload the image to the API.")
 
+    st.markdown(
+        "<h1 style='text-align: center; margin:0; padding:0'> </h1>",
+        unsafe_allow_html=True,
+            )
     st.write("##### Would you like to have a deeper analysis on your health status?")
     st.write(
         "If yes please , select the button bellow or go to the page 'Chatbot' on the left size"
     )
     if st.button("Deeper analysis"):
-        st.switch_page("pages/3_💬Chatbot.py")  # need to update to 1.40.0
+        st.switch_page("pages/deep_learning_diagnostics.py")  # need to update to 1.40.0
     else:
         st.write("Button has not been jet pressed")
+
+
+
 
     st.markdown(
         """
@@ -84,6 +91,10 @@ def main():
     .stMetric {
         font-weight: bold;
         text-align: center;
+        margin: auto;
+        width: 20%;
+        heigth: 5 px;
+        padding: 0.5 px;
         background-color: #D3D3D3;
 
     }

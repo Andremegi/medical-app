@@ -37,7 +37,7 @@ def main():
             # When the user clicks the 'Ask' button
         if button and user_input:
             # Append the user's input to the chat history and display it immediately
-            st.session_state.chat_history_area += f"\nUSER :: {user_input}\n"
+            st.session_state.chat_history_area += f"\n**YOU** : {user_input}\n"
             markdown_container.markdown(st.session_state.chat_history_area)
 
             # Call the API with the current user input and previous chat history
@@ -48,7 +48,7 @@ def main():
             st.session_state.chat_history_api = chat_history_api
 
             # Append bot response to the chat history
-            st.session_state.chat_history_area += f"\nDOCTOR AI :: {response}\n"
+            st.session_state.chat_history_area += f"\n**DOCTOR AI** : {response}\n"
             markdown_container.markdown(st.session_state.chat_history_area)
 
     dir_path = os.path.dirname(__file__)
@@ -63,7 +63,7 @@ def main():
         width: 750px;
         height: 100px;
         padding: 20px;
-        background-image: url(file://{image_folder_path});
+        background-image: url('https://i.ibb.co/JHdYRmC/incroyable.jpg');
     }}
     .stButton > button {{
         background-color: #4daab2;

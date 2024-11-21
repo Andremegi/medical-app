@@ -1,0 +1,79 @@
+User: I've been feeling really tired and had a high fever for the last two days. </s> Bot: Have you noticed any joint or muscle pain along with the fever? </s> User: Yes, my joints hurt a lot, and my muscles are sore. </s> Bot: Are you also experiencing any rash or bleeding, like nosebleeds? </s> User: Yes, I've noticed some spots on my skin and a mild nosebleed. </s> Bot: These could be signs of dengue fever. I recommend visiting a doctor for proper diagnosis and treatment. </s>
+
+User: I suddenly developed a high fever and intense headaches. </s> Bot: Do you have any pain behind your eyes or muscle pain? </s> User: Yes, I feel pain behind my eyes, and my muscles are aching. </s> Bot: Have you noticed any rash or bleeding from your nose or gums? </s> User: I have a slight rash and a nosebleed. </s> Bot: This could be dengue fever, and it’s important to get medical attention. </s>
+
+User: I’ve been having a fever, chills, and severe muscle pain. </s> Bot: Are you also feeling any joint pain or weakness? </s> User: Yes, my joints hurt, and I feel weak. </s> Bot: Have you experienced any rashes or bleeding symptoms like nosebleeds? </s> User: Yes, I have some rashes, and I had a nosebleed yesterday. </s> Bot: These symptoms are consistent with dengue fever. I suggest you see a doctor for confirmation and care. </s>
+
+User: I have a sudden fever and feel really weak. </s> Bot: Are you also experiencing any pain in your joints or muscles? </s> User: Yes, my muscles and joints are aching a lot. </s> Bot: Have you noticed any rashes or bleeding, like from your nose or gums? </s> User: Yes, I have a rash and had a small nosebleed. </s> Bot: This may be dengue fever. Please see a doctor as soon as possible for proper care. </s>
+
+User: I’ve been feeling feverish and having severe headaches. </s> Bot: Do you have any muscle pain, joint pain, or pain behind your eyes? </s> User: Yes, I have muscle pain, and it feels like my eyes are hurting. </s> Bot: Have you noticed any bleeding, like nosebleeds, or a rash on your skin? </s> User: I have a rash and some nosebleeds. </s> Bot: This could be dengue fever. I recommend visiting a doctor for a diagnosis and treatment. </s>
+
+User: I have a fever and feel weak, with pain in my muscles and joints. </s> Bot: Have you developed any rash or bleeding symptoms like nosebleeds? </s> User: Yes, I have a rash, and my nose has been bleeding a little. </s> Bot: These are common symptoms of dengue fever. You should see a healthcare professional for further evaluation and treatment. </s>
+
+User: I've been having a high fever and body aches. </s> Bot: Are you also experiencing pain behind your eyes or joint pain? </s> User: Yes, my eyes hurt, and my joints feel sore. </s> Bot: Have you noticed any rash or bleeding from your nose? </s> User: I’ve had a rash, and I’ve experienced a nosebleed. </s> Bot: This sounds like dengue fever. Please consult a doctor as soon as possible for proper care. </s>
+
+User: I have a fever and feel really exhausted. </s> Bot: Are you also having any muscle aches or joint pain? </s> User: Yes, I have muscle pain, and my joints are aching too. </s> Bot: Have you developed any rash or bleeding from your nose or gums? </s> User: Yes, I have a rash, and my nose has been bleeding a bit. </s> Bot: This could be dengue fever. It’s important to get medical care for proper treatment. </s>
+
+User: I’ve had a fever for the past few days and feel really weak. </s> Bot: Do you also have pain in your muscles or joints? </s> User: Yes, my muscles and joints are aching a lot. </s> Bot: Have you noticed any rashes or bleeding symptoms like nosebleeds? </s> User: Yes, I’ve developed a rash, and I had a nosebleed this morning. </s> Bot: It’s likely dengue fever. I suggest seeing a doctor for diagnosis and treatment. </s>
+
+User: I’ve been feeling feverish and having severe pain behind my eyes. </s> Bot: Are you also experiencing joint or muscle pain? </s> User: Yes, my muscles and joints hurt, and my eyes feel sore. </s> Bot: Have you noticed any rashes or nosebleeds? </s> User: Yes, I have some rash on my skin and had a small nosebleed. </s> Bot: These are symptoms of dengue fever. I recommend seeing a healthcare provider for proper care. </s>
+
+User: I’ve been having high fever, chills, and muscle pain. </s> Bot: Do you also feel weak or have pain behind your eyes? </s> User: Yes, my eyes hurt, and I feel really weak. </s> Bot: Have you noticed any rashes or bleeding, like nosebleeds? </s> User: Yes, I have a rash, and my nose has been bleeding a little. </s> Bot: It sounds like dengue fever. I suggest visiting a doctor for diagnosis and treatment. </s>
+
+User: I have a fever and pain all over my body. </s> Bot: Are you also feeling pain behind your eyes or in your joints? </s> User: Yes, both my eyes and joints hurt. </s> Bot: Have you noticed any rashes or bleeding from your nose? </s> User: Yes, I have a rash and some nosebleeds. </s> Bot: This could be dengue fever. Please see a doctor for proper care. </s>
+
+User: I’ve been feeling feverish and having severe joint pain. </s> Bot: Do you also feel pain behind your eyes or have muscle aches? </s> User: Yes, my muscles are sore, and my eyes hurt. </s> Bot: Have you experienced any rash or nosebleeds? </s> User: Yes, I have a rash, and my nose has been bleeding a little. </s> Bot: These could be signs of dengue fever. I recommend seeing a doctor. </s>
+
+User: I have a high fever and feel weak. </s> Bot: Are you experiencing any joint pain or pain behind your eyes? </s> User: Yes, both my joints and my eyes hurt. </s> Bot: Have you noticed any rashes or bleeding symptoms? </s> User: Yes, I have a rash and had a nosebleed earlier. </s> Bot: This might be dengue fever. It’s important to get medical attention. </s>
+
+User: I’ve been having fever and muscle aches for the past few days. </s> Bot: Do you have any pain behind your eyes or joint pain as well? </s> User: Yes, both my eyes and joints hurt a lot. </s> Bot: Have you noticed any rash or nosebleeds? </s> User: Yes, I’ve developed a rash, and my nose is bleeding. </s> Bot: These could be signs of dengue fever. Please consult a doctor. </s>
+
+User: I feel weak, and my fever won’t go down. </s> Bot: Are you also experiencing joint or muscle pain? </s> User: Yes, my muscles and joints are sore. </s> Bot: Have you noticed any rash or bleeding, like nosebleeds? </s> User: Yes, I have a rash, and I had a nosebleed. </s> Bot: This could be dengue fever. I recommend seeing a doctor for further evaluation. </s>
+
+User: I have a high fever and my body feels sore. </s> Bot: Are you also feeling pain in your eyes or joints? </s> User: Yes, my eyes hurt, and my joints are sore. </s> Bot: Have you developed any rash or nosebleeds? </s> User: Yes, I have a rash, and my nose has been bleeding. </s> Bot: This sounds like dengue fever. Please consult a doctor. </s>
+
+User: I’ve been feeling feverish, with aches and pains all over. </s> Bot: Do you also feel pain behind your eyes or in your joints? </s> User: Yes, both my eyes and joints are sore. </s> Bot: Have you noticed any rashes or nosebleeds? </s> User: Yes, I have a rash, and I’ve had some nosebleeds. </s> Bot: This is likely dengue fever. I suggest seeing a healthcare provider. </s>
+
+User: I feel really weak and have a high fever. </s> Bot: Are you also experiencing joint or muscle pain? </s> User: Yes, my joints and muscles hurt a lot. </s> Bot: Have you noticed any rash or bleeding symptoms like nosebleeds? </s> User: Yes, I have a rash, and my nose has bled a bit. </s> Bot: This could be dengue fever. Please see a doctor. </s>
+
+User: I have a fever and feel exhausted. </s> Bot: Are you also having muscle pain or joint pain? </s> User: Yes, my muscles and joints are aching. </s> Bot: Have you noticed any rashes or bleeding, like nosebleeds? </s> User: Yes, I have a rash, and I had a nosebleed yesterday. </s> Bot: This could be dengue fever. I suggest getting medical care. </s>
+
+User: I’ve been feeling feverish, and my muscles are sore. </s> Bot: Are you also experiencing pain behind your eyes or joint pain? </s> User: Yes, both my eyes and joints are hurting. </s> Bot: Have you noticed any rash or bleeding from your nose? </s> User: Yes, I have a rash, and I’ve had a few nosebleeds. </s> Bot: This sounds like dengue fever. Please consult a healthcare provider. </s>
+
+User: I feel weak, and my fever is not going away. </s> Bot: Are you also having muscle or joint pain? </s> User: Yes, my muscles and joints are aching. </s> Bot: Have you noticed any rashes or bleeding symptoms? </s> User: Yes, I have a rash, and my nose has been bleeding. </s> Bot: This could be dengue fever. It’s important to see a doctor. </s>
+
+User: I’ve been feeling feverish with severe joint pain. </s> Bot: Are you also feeling pain behind your eyes or having muscle aches? </s> User: Yes, both my eyes and muscles hurt a lot. </s> Bot: Have you noticed any rashes or nosebleeds? </s> User: Yes, I have a rash, and my nose has bled a little. </s> Bot: This could be dengue fever. I suggest you see a doctor. </s>
+
+User: I have a fever, and my body feels really sore. </s> Bot: Are you also experiencing pain in your eyes or joints? </s> User: Yes, both my eyes and joints hurt. </s> Bot: Have you developed any rash or nosebleeds? </s> User: Yes, I have a rash, and I had a nosebleed this morning. </s> Bot: This could be dengue fever. Please see a doctor for proper treatment. </s>
+
+User: I've been feeling feverish with severe body aches. </s> Bot: Are you also feeling pain behind your eyes or joint pain? </s> User: Yes, my eyes hurt, and my joints are sore. </s> Bot: Have you noticed any rash or nosebleeds? </s> User: Yes, I’ve had a rash, and my nose has been bleeding. </s> Bot: This could be dengue fever. I suggest consulting a doctor for diagnosis. </s>
+
+User: I’ve been feeling really weak and feverish. </s> Bot: Do you have any muscle or joint pain? </s> User: Yes, my muscles and joints are sore. </s> Bot: Have you noticed any rashes or bleeding, like nosebleeds? </s> User: Yes, I have a rash and had a small nosebleed. </s> Bot: This sounds like dengue fever. Please get medical attention soon. </s>
+
+User: I have a high fever, and my body is aching. </s> Bot: Are you also feeling pain behind your eyes or in your joints? </s> User: Yes, my eyes hurt, and my joints are aching. </s> Bot: Have you developed any rash or nosebleeds? </s> User: Yes, I have a rash, and I’ve had some nosebleeds. </s> Bot: This could be dengue fever. I recommend seeing a doctor. </s>
+
+User: I’ve been having fever and muscle pain for two days. </s> Bot: Do you have any pain behind your eyes or joint pain? </s> User: Yes, both my eyes and joints hurt. </s> Bot: Have you noticed any rash or bleeding symptoms? </s> User: Yes, I have a rash, and I’ve had nosebleeds. </s> Bot: It’s important to see a doctor, as these symptoms could indicate dengue fever. </s>
+
+User: I have a high fever and feel weak. </s> Bot: Are you also feeling pain in your muscles or joints? </s> User: Yes, my muscles and joints are sore. </s> Bot: Have you developed any rash or nosebleeds? </s> User: Yes, I have a rash and had a nosebleed earlier. </s> Bot: This sounds like dengue fever. I recommend getting medical attention. </s>
+
+User: I’ve been feeling feverish and have muscle aches. </s> Bot: Are you also feeling pain behind your eyes or in your joints? </s> User: Yes, both my eyes and joints hurt. </s> Bot: Have you noticed any rash or nosebleeds? </s> User: Yes, I have a rash and some nosebleeds. </s> Bot: These are signs of dengue fever. Please see a healthcare professional for care. </s>
+
+User: I've been running a fever, and my muscles are sore. </s> Bot: Are you also experiencing pain behind your eyes or joint pain? </s> User: Yes, both my eyes and joints hurt. </s> Bot: Have you noticed any rashes or nosebleeds? </s> User: Yes, I have a rash, and my nose has been bleeding. </s> Bot: This could be dengue fever. Please consult a healthcare provider. </s>
+
+User: I have a fever and feel really weak. </s> Bot: Are you also having muscle or joint pain? </s> User: Yes, my muscles and joints are very sore. </s> Bot: Have you noticed any rashes or nosebleeds? </s> User: Yes, I have a rash and had a nosebleed this morning. </s> Bot: This sounds like dengue fever. I suggest getting medical attention. </s>
+
+User: I’ve been feeling feverish, and my body hurts all over. </s> Bot: Are you also having pain behind your eyes or in your joints? </s> User: Yes, both my eyes and joints hurt. </s> Bot: Have you noticed any rash or nosebleeds? </s> User: Yes, I have a rash, and my nose has been bleeding. </s> Bot: This could be dengue fever. Please seek medical help. </s>
+
+User: I have a fever, and my body is aching. </s> Bot: Are you also experiencing pain behind your eyes or in your joints? </s> User: Yes, both my eyes and joints hurt. </s> Bot: Have you developed any rash or nosebleeds? </s> User: Yes, I have a rash, and I’ve had a few nosebleeds. </s> Bot: This could be dengue fever. I recommend consulting a healthcare provider. </s>
+
+User: I've been feeling weak and have a fever for the last two days. </s> Bot: Are you also experiencing muscle or joint pain? </s> User: Yes, my muscles and joints are sore. </s> Bot: Have you noticed any rashes or nosebleeds? </s> User: Yes, I have a rash and had a nosebleed yesterday. </s> Bot: This could be dengue fever. Please see a doctor. </s>
+
+User: I’ve had a fever for a couple of days, and I feel really weak. </s> Bot: Are you also having pain behind your eyes or in your joints? </s> User: Yes, both my eyes and joints are hurting. </s> Bot: Have you developed any rashes or nosebleeds? </s> User: Yes, I have a rash, and my nose has bled a little. </s> Bot: This sounds like dengue fever. I recommend seeing a doctor. </s>
+
+User: I’ve been feeling feverish and have body aches. </s> Bot: Are you also having pain behind your eyes or in your joints? </s> User: Yes, my eyes and joints hurt. </s> Bot: Have you noticed any rash or nosebleeds? </s> User: Yes, I have a rash and have experienced some nosebleeds. </s> Bot: This could be dengue fever. Please consult a healthcare provider. </s>
+
+User: I have a fever and am feeling very weak. </s> Bot: Are you also experiencing muscle or joint pain? </s> User: Yes, both my muscles and joints hurt. </s> Bot: Have you noticed any rashes or nosebleeds? </s> User: Yes, I have a rash and had a nosebleed earlier today. </s> Bot: This could be dengue fever. I suggest seeing a doctor. </s>
+
+User: I've been feeling feverish and weak, with sore muscles. </s> Bot: Are you also feeling pain behind your eyes or in your joints? </s> User: Yes, my eyes hurt, and my joints are sore. </s> Bot: Have you noticed any rashes or nosebleeds? </s> User: Yes, I have a rash, and I’ve had some nosebleeds. </s> Bot: This could be dengue fever. Please get medical attention. </s>
+
+User: I have a high fever, and my muscles are sore. </s> Bot: Are you also having pain behind your eyes or joint pain? </s> User: Yes, both my eyes and joints hurt. </s> Bot: Have you developed any rash or nosebleeds? </s> User: Yes, I have a rash, and I’ve had a few nosebleeds. </s> Bot: This sounds like dengue fever. Please consult a healthcare professional. </s>

@@ -1,0 +1,79 @@
+User: I have red sores on my skin that are oozing. </s> Bot: Are the sores crusting over or forming a scab? </s> User: Yes, they’re forming a yellowish crust. </s> Bot: Are the sores painful or itchy? </s> User: They’re a little itchy and uncomfortable. </s> Bot: It seems like impetigo, a bacterial skin infection. You should visit a doctor for treatment. </s>
+
+User: I noticed small, red sores that have developed into blisters. </s> Bot: Are the blisters leaking any fluid? </s> User: Yes, they’re leaking a yellowish fluid. </s> Bot: Do the sores look crusty around the edges? </s> User: Yes, they’re starting to form a crust. </s> Bot: This might be impetigo. I recommend seeing a doctor to get antibiotics. </s>
+
+User: My skin has developed blisters that are weeping fluid. </s> Bot: Are the blisters on a specific part of your body? </s> User: They’re on my face and hands. </s> Bot: Are the blisters painful or itchy? </s> User: They’re itchy and a little painful. </s> Bot: It sounds like impetigo. A doctor can confirm and provide antibiotics. </s>
+
+User: I have sores on my face that keep oozing. </s> Bot: Do the sores have a yellow crust forming on them? </s> User: Yes, they do. </s> Bot: Are they causing any pain or discomfort? </s> User: They’re itchy and sometimes tender. </s> Bot: It’s likely impetigo, which requires antibiotics. Please consult a doctor. </s>
+
+User: I noticed some red, swollen bumps that have become blisters. </s> Bot: Are they leaking any fluid or forming a crust? </s> User: Yes, they’re oozing a yellowish fluid and crusting. </s> Bot: This sounds like impetigo, a bacterial skin infection. I recommend seeing a doctor for antibiotics. </s>
+
+User: My skin is breaking out with yellow crusty sores. </s> Bot: Are they itchy or painful? </s> User: They’re mostly itchy. </s> Bot: Do the sores appear near the mouth or nose? </s> User: Yes, a few are around my nose. </s> Bot: This could be impetigo. A doctor can confirm and provide treatment. </s>
+
+User: I have some painful blisters that are leaking yellow fluid. </s> Bot: Are the blisters forming a crust on the surface? </s> User: Yes, they’re starting to form a crust. </s> Bot: It sounds like impetigo, a bacterial infection. You should see a doctor for antibiotics. </s>
+
+User: My skin has some red sores that have turned into blisters. </s> Bot: Are the blisters oozing any yellow fluid? </s> User: Yes, they are. </s> Bot: Are the sores around your nose or mouth? </s> User: Yes, mostly around my nose. </s> Bot: This might be impetigo. Please visit a doctor for treatment. </s>
+
+User: I have a rash with blisters that are oozing. </s> Bot: Are the blisters crusting over and turning yellow? </s> User: Yes, they’re turning yellow. </s> Bot: Do the sores itch or hurt? </s> User: They’re very itchy and a little sore. </s> Bot: This is likely impetigo. A doctor can provide you with antibiotics to treat it. </s>
+
+User: My skin has small, fluid-filled bumps that are oozing. </s> Bot: Are the bumps crusting over with a yellowish color? </s> User: Yes, they are. </s> Bot: Do you feel any pain or discomfort in the affected areas? </s> User: They’re a bit tender and itchy. </s> Bot: It sounds like impetigo. You should see a doctor for a diagnosis and antibiotics. </s>
+
+User: I have some yellow crusty patches on my skin. </s> Bot: Are the patches located near your mouth or nose? </s> User: Yes, they’re around my nose. </s> Bot: Are they painful or just itchy? </s> User: They’re mostly itchy. </s> Bot: It could be impetigo. I recommend seeing a doctor for proper treatment. </s>
+
+User: I have sores on my face that are leaking yellow fluid. </s> Bot: Are they crusting over or forming scabs? </s> User: Yes, they’re forming a crust. </s> Bot: Do the sores cause pain or itching? </s> User: They itch a lot and sometimes feel sore. </s> Bot: This could be impetigo, a bacterial infection. A doctor can prescribe antibiotics for treatment. </s>
+
+User: My skin is breaking out in blisters that are oozing. </s> Bot: Are the blisters crusting over with a yellowish color? </s> User: Yes, they’re crusting. </s> Bot: Are they causing any discomfort? </s> User: They’re itchy and tender to touch. </s> Bot: It sounds like impetigo. You should visit a doctor for antibiotics. </s>
+
+User: I have some red, swollen bumps that have turned into blisters. </s> Bot: Are they leaking fluid? </s> User: Yes, they’re leaking yellowish fluid. </s> Bot: Are the blisters forming a crust around the edges? </s> User: Yes, they are. </s> Bot: This could be impetigo. I recommend you see a doctor for a diagnosis and antibiotics. </s>
+
+User: I have sores on my face that have become crusty and yellow. </s> Bot: Are they itchy or painful? </s> User: They’re mostly itchy. </s> Bot: This sounds like impetigo. You should consult a doctor for antibiotics to treat the infection. </s>
+
+User: I’ve developed blisters on my skin that are oozing and crusting. </s> Bot: Do the blisters form a yellowish crust? </s> User: Yes, they’re forming yellow crusts. </s> Bot: Are the sores painful or itchy? </s> User: They’re very itchy. </s> Bot: It sounds like impetigo, which is caused by a bacterial infection. I recommend seeing a doctor for treatment. </s>
+
+User: I have yellow crusty patches around my nose. </s> Bot: Are the patches forming blisters or scabs? </s> User: They’re forming scabs. </s> Bot: Are the scabs itchy or painful? </s> User: They’re more itchy than painful. </s> Bot: This could be impetigo. A doctor can confirm the diagnosis and give you antibiotics. </s>
+
+User: My skin has developed sores that are leaking fluid. </s> Bot: Are the sores forming a yellow crust? </s> User: Yes, they are. </s> Bot: Are they itchy or causing any discomfort? </s> User: They’re really itchy. </s> Bot: It sounds like impetigo. You should visit a doctor to get treatment. </s>
+
+User: I have blisters on my face that are leaking fluid and crusting. </s> Bot: Are the blisters surrounded by red, inflamed skin? </s> User: Yes, they are. </s> Bot: It’s likely impetigo. You should see a doctor for a proper diagnosis and antibiotics. </s>
+
+User: I have fluid-filled bumps that are oozing a yellow substance. </s> Bot: Are the bumps turning into scabs or crusting over? </s> User: Yes, they’re forming a crust. </s> Bot: Are they painful or itchy? </s> User: They’re mostly itchy. </s> Bot: This could be impetigo. I recommend seeing a doctor for antibiotics. </s>
+
+User: I have some small blisters that are leaking yellow fluid. </s> Bot: Are the blisters on your face or other parts of your body? </s> User: They’re mostly on my face. </s> Bot: Are the blisters forming a crust? </s> User: Yes, they are. </s> Bot: It sounds like impetigo. I suggest visiting a doctor for antibiotics. </s>
+
+User: My skin has red sores that have turned into blisters. </s> Bot: Are the blisters oozing any fluid? </s> User: Yes, yellow fluid is leaking from them. </s> Bot: Are the sores crusting over or scabbing? </s> User: Yes, they are forming a crust. </s> Bot: This might be impetigo, which is a bacterial infection. You should see a doctor for treatment. </s>
+
+User: I have some painful, fluid-filled bumps on my skin. </s> Bot: Are the bumps leaking any yellowish fluid? </s> User: Yes, they’re leaking yellow fluid. </s> Bot: Are they forming crusts or scabs? </s> User: Yes, the fluid is forming a crust. </s> Bot: This could be impetigo. I recommend seeing a doctor for antibiotics. </s>
+
+User: I have yellow, crusty sores around my nose. </s> Bot: Are the sores itching or painful? </s> User: They’re mostly itchy. </s> Bot: This could be impetigo, which is caused by bacteria. A doctor can prescribe antibiotics to help clear it up. </s>
+
+User: I noticed some sores on my skin that are oozing yellow fluid. </s> Bot: Are the sores forming a crust or scab? </s> User: Yes, they’re crusting over. </s> Bot: Are the sores causing any discomfort, like pain or itching? </s> User: They’re very itchy. </s> Bot: It’s likely impetigo. I suggest consulting a doctor for treatment. </s>
+
+User: I have some red sores on my skin that are crusting and yellow. </s> Bot: Are the sores painful or itchy? </s> User: They’re mostly itchy. </s> Bot: This sounds like impetigo. A doctor can prescribe antibiotics for treatment. </s>
+
+User: I have fluid-filled blisters that are turning into scabs. </s> Bot: Are the blisters oozing yellow fluid? </s> User: Yes, they are. </s> Bot: Do the sores cause any pain or itching? </s> User: They’re itchy and sometimes sore. </s> Bot: It’s likely impetigo, which requires antibiotics. I recommend visiting a doctor. </s>
+
+User: I have small blisters on my skin that are leaking yellow fluid. </s> Bot: Are the blisters crusting over with a yellowish color? </s> User: Yes, they’re crusting. </s> Bot: Are the blisters itchy or painful? </s> User: They’re mostly itchy. </s> Bot: This might be impetigo. You should see a doctor for treatment. </s>
+
+User: I have a rash with sores that are oozing and forming scabs. </s> Bot: Are the scabs yellowish or crusty? </s> User: Yes, they’re yellow and crusty. </s> Bot: Are they causing any pain or itching? </s> User: They’re itchy. </s> Bot: This is likely impetigo. A doctor can help treat it with antibiotics. </s>
+
+User: I have red, itchy sores on my face that are leaking yellow fluid. </s> Bot: Are the sores forming a crust? </s> User: Yes, they’re crusting. </s> Bot: It could be impetigo, a bacterial infection. I recommend seeing a doctor for antibiotics. </s>
+
+User: I noticed some fluid-filled blisters on my skin that have crusted over. </s> Bot: Are the blisters oozing yellow fluid? </s> User: Yes, they are. </s> Bot: Are they painful or just itchy? </s> User: They’re mostly itchy. </s> Bot: This sounds like impetigo. You should visit a doctor for treatment. </s>
+
+User: I have some sores on my face that are crusting over. </s> Bot: Are they yellowish and itchy? </s> User: Yes, they’re yellow and itchy. </s> Bot: It sounds like impetigo, which is a bacterial infection. A doctor can give you antibiotics for treatment. </s>
+
+User: My skin has developed some yellow crusty patches. </s> Bot: Are the patches leaking any fluid? </s> User: Yes, they’re oozing a little yellow fluid. </s> Bot: Do the patches itch or hurt? </s> User: They’re mostly itchy. </s> Bot: This could be impetigo. You should see a doctor for treatment. </s>
+
+User: I noticed a rash on my face with yellow crusting. </s> Bot: Are the crusts forming from fluid-filled blisters? </s> User: Yes, the blisters are oozing and crusting. </s> Bot: Do the sores cause any pain or itching? </s> User: They’re itchy. </s> Bot: It’s likely impetigo. A doctor can prescribe antibiotics for treatment. </s>
+
+User: I have some red sores on my skin that are leaking yellow fluid. </s> Bot: Are the sores crusting over with a yellowish color? </s> User: Yes, they are. </s> Bot: Are the sores causing pain or discomfort? </s> User: They’re just itchy. </s> Bot: It’s likely impetigo, which requires antibiotics. Please consult a doctor. </s>
+
+User: I have some crusty, yellow patches on my face. </s> Bot: Are the patches leaking any fluid? </s> User: Yes, they’re oozing a yellowish fluid. </s> Bot: Are they painful or itchy? </s> User: They’re itchy. </s> Bot: It sounds like impetigo, a bacterial infection. A doctor can provide antibiotics to treat it. </s>
+
+User: I have small, oozing sores that are crusting over. </s> Bot: Are the sores leaking yellow fluid? </s> User: Yes, they are. </s> Bot: Are the sores causing any pain or itching? </s> User: They’re mostly itchy. </s> Bot: This sounds like impetigo. A doctor can prescribe antibiotics to treat it. </s>
+
+User: I noticed a rash with fluid-filled blisters that have crusted. </s> Bot: Are the blisters yellow and crusty? </s> User: Yes, they are. </s> Bot: Do they cause pain or itching? </s> User: They’re mostly itchy. </s> Bot: It could be impetigo. Please see a doctor for antibiotics. </s>
+
+User: My skin is breaking out with yellow crusty sores. </s> Bot: Are the sores leaking fluid? </s> User: Yes, they’re oozing yellow fluid. </s> Bot: Are the sores causing any pain or discomfort? </s> User: They’re more itchy than painful. </s> Bot: It’s likely impetigo. A doctor can prescribe antibiotics for treatment. </s>
+
+User: I have sores on my face that are leaking yellow fluid. </s> Bot: Are the sores crusting over? </s> User: Yes, they are. </s> Bot: Are they itchy or painful? </s> User: They’re mostly itchy. </s> Bot: It sounds like impetigo, which requires antibiotics. Please consult a doctor. </s>

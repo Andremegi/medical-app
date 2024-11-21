@@ -1,0 +1,79 @@
+User: I’ve noticed some red spots on my skin. </s> Bot: Are the spots raised or flat? </s> User: They’re raised and seem to be spreading. </s> Bot: Do you have any itching or discomfort? </s> User: Yes, they’re really itchy. </s> Bot: Have you had a fever or feeling unwell? </s> User: Yes, I’ve had a low fever for a couple of days. </s> Bot: It sounds like it could be chickenpox. You should see a doctor for confirmation. </s>
+
+User: My skin is covered in itchy blisters. </s> Bot: Are they scattered all over or concentrated in certain areas? </s> User: They’re everywhere, especially on my chest and back. </s> Bot: Have you had a fever or any flu-like symptoms? </s> User: Yes, I’ve had chills and a mild fever. </s> Bot: It sounds like chickenpox. A doctor will confirm it for sure. </s>
+
+User: I have itchy bumps on my skin that look like blisters. </s> Bot: Have you had any fever or other symptoms like fatigue? </s> User: Yes, I’ve been feeling quite tired and have a low-grade fever. </s> Bot: This might be chickenpox. I recommend you visit a doctor for proper diagnosis. </s>
+
+User: My body is covered with itchy red spots. </s> Bot: Do the spots look like blisters or scabs? </s> User: They look like blisters that are filled with fluid. </s> Bot: Have you experienced a fever along with the spots? </s> User: Yes, I’ve had a fever for the past two days. </s> Bot: It seems like chickenpox. A doctor’s visit would be a good idea. </s>
+
+User: I have small red spots that are itching a lot. </s> Bot: Are these spots turning into blisters? </s> User: Yes, some of them are turning into blisters. </s> Bot: Do you feel feverish or tired? </s> User: Yes, I’ve been feeling very tired with a slight fever. </s> Bot: It’s likely chickenpox. You should get checked by a doctor. </s>
+
+User: I feel really itchy all over my body, and I see red bumps. </s> Bot: Are the bumps turning into blisters? </s> User: Yes, they’re becoming small fluid-filled blisters. </s> Bot: Have you had a fever, chills, or fatigue? </s> User: Yes, I have a mild fever and feel really weak. </s> Bot: This could be chickenpox. It’s best to see a doctor for confirmation. </s>
+
+User: I have a rash that’s really itchy. </s> Bot: What does the rash look like? </s> User: There are small red spots, and some of them are blistering. </s> Bot: Have you felt feverish or run down? </s> User: Yes, I have a low fever and feel exhausted. </s> Bot: It sounds like chickenpox. You should visit a doctor to confirm. </s>
+
+User: I have blisters on my skin, and they itch a lot. </s> Bot: Are these blisters appearing on your face, body, or other areas? </s> User: They’re on my chest, back, and face. </s> Bot: Have you had a fever, headache, or general weakness? </s> User: Yes, I’ve had all of those symptoms. </s> Bot: This could be chickenpox. A doctor can confirm with a proper diagnosis. </s>
+
+User: I’m feeling very itchy and have small red spots. </s> Bot: Are the spots turning into fluid-filled blisters? </s> User: Yes, they are. </s> Bot: Do you have a fever or any other symptoms? </s> User: Yes, I have a mild fever and feel tired. </s> Bot: You might have chickenpox. A doctor will need to confirm it. </s>
+
+User: I’ve got red spots on my body that are really itchy. </s> Bot: Are the spots turning into blisters? </s> User: Yes, they are. </s> Bot: Do you have any flu-like symptoms like fever or fatigue? </s> User: Yes, I’ve had a fever and feel weak. </s> Bot: This might be chickenpox. You should see a doctor to confirm. </s>
+
+User: I have a rash with small blisters that’s very itchy. </s> Bot: Have you been feeling feverish or tired? </s> User: Yes, I’ve had a fever for a couple of days. </s> Bot: It sounds like chickenpox. You should see a doctor for confirmation. </s>
+
+User: I’m breaking out in itchy red bumps. </s> Bot: Are the bumps turning into fluid-filled blisters? </s> User: Yes, some of them are blistering. </s> Bot: Have you had any fever or flu-like symptoms? </s> User: Yes, I’ve had a mild fever and feel weak. </s> Bot: This is likely chickenpox. A doctor will be able to confirm. </s>
+
+User: I have red, itchy spots on my skin. </s> Bot: Are the spots turning into blisters? </s> User: Yes, they are. </s> Bot: Do you have a fever or feel generally unwell? </s> User: Yes, I have a low-grade fever. </s> Bot: This could be chickenpox. I recommend visiting a doctor to confirm. </s>
+
+User: My skin is covered with red itchy bumps. </s> Bot: Are the bumps blistering or becoming scabs? </s> User: Some are blistering, and others are already scabs. </s> Bot: Have you felt feverish or tired? </s> User: Yes, I’ve had a mild fever and feel exhausted. </s> Bot: This sounds like chickenpox. A doctor will need to confirm it. </s>
+
+User: I have itchy red spots and some blisters. </s> Bot: Have you had a fever or feeling unwell? </s> User: Yes, I’ve had a fever for a few days now. </s> Bot: It seems like chickenpox. A doctor can confirm with a test. </s>
+
+User: My skin is breaking out in small red bumps. </s> Bot: Are the bumps turning into fluid-filled blisters? </s> User: Yes, they’re starting to blister. </s> Bot: Do you have any fever or flu-like symptoms? </s> User: Yes, I’ve had chills and a low fever. </s> Bot: This could be chickenpox. Please visit a doctor for confirmation. </s>
+
+User: I have red, itchy spots and blisters on my body. </s> Bot: Do you have a fever, or are you feeling unwell? </s> User: Yes, I have a mild fever and feel quite weak. </s> Bot: It sounds like chickenpox. A doctor will confirm with a test. </s>
+
+User: I have bumps on my skin that are turning into blisters. </s> Bot: Are you feeling feverish or tired? </s> User: Yes, I have a fever and feel exhausted. </s> Bot: This could be chickenpox. You should see a doctor for proper diagnosis. </s>
+
+User: I feel itchy and have red bumps on my skin. </s> Bot: Are the bumps turning into blisters? </s> User: Yes, they’re blistering. </s> Bot: Have you felt feverish or run down? </s> User: Yes, I have a mild fever. </s> Bot: It could be chickenpox. A doctor can confirm with a test. </s>
+
+User: I’ve got a rash that’s itchy and blistering. </s> Bot: Are you feeling tired or unwell? </s> User: Yes, I’ve had a fever and feel weak. </s> Bot: This might be chickenpox. You should visit a doctor to confirm. </s>
+
+User: My skin is covered in itchy, red bumps. </s> Bot: Are the bumps turning into blisters or scabs? </s> User: Some of them are blistering. </s> Bot: Have you had a fever or felt unwell? </s> User: Yes, I’ve had a fever and feel tired. </s> Bot: This sounds like chickenpox. A doctor can confirm the diagnosis. </s>
+
+User: I have fluid-filled blisters on my skin. </s> Bot: Are the blisters itchy? </s> User: Yes, they are extremely itchy. </s> Bot: Have you had a fever or any flu-like symptoms? </s> User: Yes, I’ve been feeling feverish and weak. </s> Bot: This could be chickenpox. I recommend you visit a doctor for confirmation. </s>
+
+User: My body is covered in red spots that look like blisters. </s> Bot: Do you have a fever, chills, or fatigue? </s> User: Yes, I have a low fever and feel quite exhausted. </s> Bot: It sounds like chickenpox. Please see a doctor to confirm. </s>
+
+User: I’ve developed a rash with itchy blisters. </s> Bot: Are the blisters located in specific areas or all over? </s> User: They’re all over my body, especially on my back and chest. </s> Bot: Have you had a fever or any other symptoms like fatigue? </s> User: Yes, I’ve had a mild fever and feel very tired. </s> Bot: It seems like chickenpox. A doctor can confirm the diagnosis. </s>
+
+User: I have small red bumps on my skin that are blistering. </s> Bot: Do you feel feverish or unwell in any way? </s> User: Yes, I have a low fever and feel very tired. </s> Bot: It’s possible that this is chickenpox. A doctor’s visit will help confirm. </s>
+
+User: I’m breaking out in itchy blisters all over my body. </s> Bot: Have you had a fever or flu-like symptoms along with the rash? </s> User: Yes, I’ve had a mild fever and feel weak. </s> Bot: It could be chickenpox. I recommend you see a doctor for a diagnosis. </s>
+
+User: I’ve noticed red spots on my skin that are turning into blisters. </s> Bot: Are you feeling tired or feverish? </s> User: Yes, I’ve had a fever and feel pretty weak. </s> Bot: It seems like chickenpox. You should get checked by a doctor. </s>
+
+User: I have a rash with raised, fluid-filled bumps. </s> Bot: Have you been feeling unwell or had a fever? </s> User: Yes, I’ve had a fever and chills. </s> Bot: It sounds like chickenpox. A doctor can help confirm the diagnosis. </s>
+
+User: I have blisters on my skin, and they’re really itchy. </s> Bot: Are you feeling feverish or experiencing any other symptoms? </s> User: Yes, I’ve had a mild fever for a few days. </s> Bot: It’s likely chickenpox. I recommend seeing a doctor to confirm. </s>
+
+User: My skin is covered in red, itchy bumps. </s> Bot: Are the bumps becoming blisters or scabs? </s> User: Yes, some of them are turning into blisters. </s> Bot: Have you had a fever or any other symptoms like tiredness? </s> User: Yes, I’ve had a mild fever and feel exhausted. </s> Bot: This could be chickenpox. A doctor can confirm the diagnosis. </s>
+
+User: I have fluid-filled blisters that are itchy. </s> Bot: Are you feeling feverish or unwell? </s> User: Yes, I’ve had a fever and feel weak. </s> Bot: This sounds like chickenpox. You should visit a doctor to confirm. </s>
+
+User: I’ve developed a rash that’s very itchy and blistering. </s> Bot: Are the blisters scattered all over or concentrated in certain areas? </s> User: They’re mostly on my torso, but some are on my arms. </s> Bot: Have you experienced fever or fatigue? </s> User: Yes, I’ve had a low fever and feel tired. </s> Bot: It could be chickenpox. A doctor will confirm the diagnosis. </s>
+
+User: My body is covered in itchy blisters. </s> Bot: Are the blisters filled with fluid? </s> User: Yes, some of them are. </s> Bot: Have you had a fever or any flu-like symptoms? </s> User: Yes, I’ve had chills and a mild fever. </s> Bot: This might be chickenpox. A doctor can confirm it. </s>
+
+User: I have itchy blisters that are spreading all over my body. </s> Bot: Have you felt feverish or unwell? </s> User: Yes, I’ve had a fever and feel very tired. </s> Bot: It sounds like chickenpox. A doctor will help confirm the diagnosis. </s>
+
+User: I’m developing blisters all over my body. </s> Bot: Are the blisters filled with fluid? </s> User: Yes, they are. </s> Bot: Have you felt feverish or weak? </s> User: Yes, I’ve had a mild fever and feel fatigued. </s> Bot: This could be chickenpox. You should see a doctor to confirm. </s>
+
+User: I have a rash with red, itchy bumps. </s> Bot: Are the bumps turning into blisters or scabs? </s> User: Some of them are turning into blisters. </s> Bot: Have you been feeling tired or feverish? </s> User: Yes, I have a low fever and feel exhausted. </s> Bot: It might be chickenpox. A doctor will confirm the diagnosis. </s>
+
+User: I’ve noticed red, itchy blisters on my body. </s> Bot: Have you been feeling feverish or unwell? </s> User: Yes, I have a fever and feel weak. </s> Bot: This could be chickenpox. I recommend seeing a doctor to confirm. </s>
+
+User: I have blisters that are spreading on my skin. </s> Bot: Are you feeling tired, or do you have a fever? </s> User: Yes, I’ve been feeling very tired and have a mild fever. </s> Bot: This sounds like chickenpox. A doctor will confirm with a test. </s>
+
+User: I have a rash with raised, fluid-filled blisters. </s> Bot: Are the blisters located all over your body? </s> User: Yes, they’re all over my chest, back, and face. </s> Bot: Have you experienced fever or any other symptoms? </s> User: Yes, I’ve had a low fever and feel fatigued. </s> Bot: This might be chickenpox. A doctor will confirm the diagnosis. </s>
+
+User: I’m experiencing a rash that’s very itchy. </s> Bot: Are there blisters or scabs forming? </s> User: Yes, some of them are forming blisters. </s> Bot: Have you had a fever or fatigue? </s> User: Yes, I’ve had a fever and feel very tired. </s> Bot: This sounds like chickenpox. You should visit a doctor for confirmation. </s>

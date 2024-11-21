@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 import requests
 from modules.nav import Navbar
 
@@ -6,7 +7,7 @@ from modules.nav import Navbar
 def main():
     Navbar()
 
-    st.title("Generic medical Chatbot")
+    st.title("Symptom-Desease Chatbot")
     st.write("Please, describe your symtoms so I can predict your disease")
 
     txt = st.text_area(
@@ -29,8 +30,13 @@ def main():
         unsafe_allow_html=True,
             )
 
-
+        probs = (round(float(response_text['probability']), 2), (100-round(float(response_text['probability']), 2)))
+        diseases = [response_text['disease'] , 'Other diseases']
+        text_df= pd.DataFrame([probs] , columns= diseases, index=[0])
         st.metric(' ',response_text['disease'], ' ')
+
+        st.bar_chart(text_df)
+
     else:
         st.write("Please press the button so I can make a prediction.")
 

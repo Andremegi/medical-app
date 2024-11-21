@@ -44,7 +44,7 @@ def main():
             )
 
 
-            st.metric('', result['best_label'])
+            st.metric(' ', result['best_label'], ' ')
             st.markdown(
         "<h1 style='text-align: center; margin:0; padding:0'></h1>",
         unsafe_allow_html=True,
@@ -52,15 +52,22 @@ def main():
 
 
             predictions_per_label = result["predictions_per_label"]
-            st.write("##### Prediction Probabilities")
-            for label, probability in predictions_per_label.items():
-                st.write(f"{label}: {probability * 100:.2f}%")
+            st.markdown(
+        "<h4 style='text-align: center; margin:0; padding:0'>Prediction Probabilities</h4>",
+        unsafe_allow_html=True)
+
+            #for label, probability in predictions_per_label.items():
+            #   st.write(f"{label}: {probability * 100:.2f}%")
 
             predictions_per_label_df = pd.DataFrame(predictions_per_label, index=[0])
+
+            #Transform probabilities to %
+            predictions_per_label_df = predictions_per_label_df*100
+
             print(predictions_per_label_df)
             st.bar_chart(predictions_per_label_df,
                          x_label = 'Diseases',
-                         y_label ='Probability',
+                         y_label ='Probability (%)',
                          horizontal=False,
                          stack=False,
                          color = colors)
@@ -69,21 +76,21 @@ def main():
         else:
             st.error("Failed to upload the image to the API.")
 
-    st.markdown(
-        "<h1 style='text-align: center; margin:0; padding:0'> </h1>",
-        unsafe_allow_html=True,
-            )
-    st.write("##### Would you like to have a deeper analysis on your health status?")
-    st.write(
-        "If yes please , select the button bellow or go to the page 'Chatbot' on the left size"
+    col1,col2 = st.columns(2)
+
+    col1.write("##### Would you like to have a deeper analysis on your health status?")
+    col1.write(
+        "If yes please , select the button bellow or go to the page 'Deeper Analysis' on the left size"
     )
-    if st.button("Deeper analysis"):
-        st.switch_page("pages/deep_learning_diagnostics.py")  # need to update to 1.40.0
-    else:
-        st.write("Button has not been jet pressed")
+    if col1.button("Deeper analysis"):
+        st.switch_page("pages/deep_learning_diagnostics.py")
 
-
-
+    col2.write("##### Would you like to talk with one of our doctors?")
+    col2.write(
+        "If yes, please click the button bellow or refer to the page 'Doctor Chatbot' on the left size"
+    )
+    if col2.button("Doctor Chatbot"):
+        st.switch_page("pages/llm_doctor_chatbot.py")  # need to update to 1.40.0
 
     st.markdown(
         """
@@ -91,22 +98,30 @@ def main():
     .stMetric {
         font-weight: bold;
         text-align: center;
-        margin: auto;
-        width: 20%;
-        heigth: 5 px;
-        padding: 0.5 px;
         background-color: #D3D3D3;
+        margin: auto;
+
+        width : auto;
 
     }
-    .stButton > button{
-        background-color: #4daab2; /* Success Green */
-        color : white;
+    .stButton > button {
+        background-color: #4daab2;
+        color: white;
     }
+    .stButton > button:hover {
+        background-color: #FFFFFF; /* WHITE */
+        color: #4daab2; /* Success Green */
+        border-style: solid;
+        border-radius: 8px;
+        border-color: #4daab2;
 
+
+    }
     }
     </style>
     """,
         unsafe_allow_html=True,
     )
+
 if __name__ == "__main__":
     main()

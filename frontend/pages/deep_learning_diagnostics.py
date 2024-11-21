@@ -23,7 +23,9 @@ def main():
 
         response_text = requests.get(url_text, params).json()
 
+
        # st.write(f"Your deseais is {response_text['disease']} with a probability = {round(float(response_text['probability']), 2)} %." )
+
 
         st.markdown(
         "<h3 style='margin:1; padding:1'>Your desease is:</h3>",
@@ -73,6 +75,37 @@ def main():
         color: white;
     }
     .stButton > button:hover {
+        color: #4daab2;
+        border-style: solid;
+        border-radius: 8px;
+        border-color: #4daab2;
+
+
+    }
+    }
+    </style>
+    """,
+        unsafe_allow_html=True,
+    )
+
+    st.markdown(
+        """
+    <style>
+    .stMetric {
+        font-weight: bold;
+        text-align: center;
+        background-color: #D3D3D3;
+        margin: auto;
+
+        width : auto;
+
+    }
+    .stButton > button {
+        background-color: #4daab2;
+        color: white;
+    }
+    .stButton > button:hover {
+        background-color: #FFFFFF; /* WHITE */
         color: #4daab2;
         border-style: solid;
         border-radius: 8px;

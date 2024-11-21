@@ -1,0 +1,79 @@
+User: I've been feeling feverish for a few days. </s> Bot: How high has your fever been? </s> User: Around 101°F. </s> Bot: Do you have any other symptoms, like stomach pain or diarrhea? </s> User: Yes, I’ve had stomach pain and some diarrhea. </s> Bot: Have you traveled to any places where typhoid is common recently? </s> User: Yes, I just returned from India. </s> Bot: It’s possible you have typhoid. A doctor can confirm through tests. </s>
+
+User: I’ve had a persistent fever for the last few days. </s> Bot: Have you noticed any other symptoms along with the fever? </s> User: Yes, I have abdominal pain and a feeling of weakness. </s> Bot: Have you traveled to areas with a higher risk of typhoid recently? </s> User: Yes, I was in Southeast Asia last month. </s> Bot: You might have typhoid. It’s important to visit a doctor for tests. </s>
+
+User: I’ve been feeling nauseous and feverish. </s> Bot: How long have you been feeling this way? </s> User: For about four days now. </s> Bot: Have you had any stomach issues, like pain or diarrhea? </s> User: Yes, I’ve had some stomach cramps and diarrhea. </s> Bot: Did you recently travel to a place where typhoid is common? </s> User: Yes, I was in a rural area of Africa. </s> Bot: You might have typhoid. A doctor can confirm it with tests. </s>
+
+User: I’ve had a high fever and feel really weak. </s> Bot: How long has the fever lasted? </s> User: For about a week now. </s> Bot: Do you have any other symptoms, like stomach pain or diarrhea? </s> User: Yes, I’ve had stomach pain and some loose stools. </s> Bot: Have you traveled to any areas with a risk of typhoid? </s> User: Yes, I just returned from a trip to India. </s> Bot: It sounds like typhoid. You should see a doctor for testing and treatment. </s>
+
+User: My stomach hurts, and I have a fever. </s> Bot: How long have you been feeling like this? </s> User: For about five days. </s> Bot: Do you have any other symptoms, like diarrhea or weakness? </s> User: Yes, I’ve been feeling very weak and have had diarrhea. </s> Bot: Have you recently traveled to places where typhoid is common? </s> User: Yes, I was in Southeast Asia last month. </s> Bot: It could be typhoid. A doctor will need to confirm through tests. </s>
+
+User: I’ve been running a high fever for several days. </s> Bot: How high has the fever been? </s> User: Around 102°F. </s> Bot: Have you had any stomach issues or digestive symptoms? </s> User: Yes, I’ve had stomach cramps and diarrhea. </s> Bot: Have you recently traveled to a place where typhoid fever is common? </s> User: Yes, I visited some rural areas in Africa. </s> Bot: This could be typhoid. It’s important to see a doctor for a diagnosis. </s>
+
+User: I’ve been feeling nauseous and feverish for a few days now. </s> Bot: Do you have any other symptoms, like stomach pain or diarrhea? </s> User: Yes, I’ve had some stomach pain and loose stools. </s> Bot: Have you traveled to any countries where typhoid is common? </s> User: Yes, I was in India last month. </s> Bot: You might have typhoid. It’s important to see a doctor for tests. </s>
+
+User: I’ve had a fever for the past few days, and my stomach hurts. </s> Bot: Do you also have diarrhea or any other symptoms? </s> User: Yes, I’ve had diarrhea and feeling weak. </s> Bot: Have you recently traveled to a region where typhoid is common? </s> User: Yes, I visited Southeast Asia a few weeks ago. </s> Bot: It’s possible you have typhoid. A doctor can confirm with a test. </s>
+
+User: I’ve been feeling really weak and feverish. </s> Bot: How long have you had these symptoms? </s> User: For about a week now. </s> Bot: Have you noticed any other symptoms, like stomach pain or diarrhea? </s> User: Yes, I’ve had abdominal pain and diarrhea. </s> Bot: Have you traveled to a place with a higher risk of typhoid? </s> User: Yes, I traveled to India last month. </s> Bot: This could be typhoid. You should consult a doctor for testing. </s>
+
+User: I’ve been feeling feverish and weak, and my stomach hurts. </s> Bot: Do you also have diarrhea or nausea? </s> User: Yes, I’ve had both. </s> Bot: Have you recently traveled to any countries where typhoid is common? </s> User: Yes, I was in Southeast Asia. </s> Bot: This sounds like typhoid. A doctor can confirm with a test and provide treatment. </s>
+
+User: I have a fever, stomach pain, and feel really tired. </s> Bot: How long have you been feeling this way? </s> User: For about four days. </s> Bot: Do you have any other symptoms, like diarrhea or nausea? </s> User: Yes, I’ve been having diarrhea. </s> Bot: Have you traveled to areas where typhoid fever is common? </s> User: Yes, I recently visited India. </s> Bot: You might have typhoid. A doctor can confirm it with a test. </s>
+
+User: I’ve been feeling feverish and have stomach cramps. </s> Bot: How long have you had these symptoms? </s> User: For about five days. </s> Bot: Have you had diarrhea or other digestive symptoms? </s> User: Yes, I’ve had some diarrhea. </s> Bot: Have you traveled to any high-risk areas for typhoid? </s> User: Yes, I went to Southeast Asia recently. </s> Bot: It could be typhoid. Please visit a doctor for testing. </s>
+
+User: I’ve been feeling feverish and weak with stomach pain. </s> Bot: Have you had diarrhea or any other symptoms? </s> User: Yes, I’ve had diarrhea. </s> Bot: Have you traveled to any areas where typhoid is common? </s> User: Yes, I just got back from India. </s> Bot: You may have typhoid. A doctor can confirm with a test. </s>
+
+User: I’ve had a high fever and stomach pain for a few days. </s> Bot: Do you also have diarrhea or vomiting? </s> User: Yes, I’ve had diarrhea. </s> Bot: Have you traveled to places where typhoid is common? </s> User: Yes, I visited Southeast Asia. </s> Bot: It’s likely typhoid. Please see a doctor for diagnosis and treatment. </s>
+
+User: I have a fever, stomach cramps, and diarrhea. </s> Bot: How long have you been feeling this way? </s> User: For about a week now. </s> Bot: Have you traveled to places where typhoid is common? </s> User: Yes, I was in Africa a few weeks ago. </s> Bot: You may have typhoid. A doctor can confirm and treat it. </s>
+
+User: My stomach hurts, and I’ve been feeling feverish. </s> Bot: How long have you had these symptoms? </s> User: For about four days. </s> Bot: Have you had any other symptoms like diarrhea or nausea? </s> User: Yes, I’ve had diarrhea. </s> Bot: Have you recently traveled to places with a risk of typhoid? </s> User: Yes, I went to India. </s> Bot: This could be typhoid. A doctor can confirm it with tests. </s>
+
+User: I’ve been feeling nauseous and feverish for the past few days. </s> Bot: Have you had stomach pain or diarrhea? </s> User: Yes, I’ve had stomach cramps and diarrhea. </s> Bot: Did you travel to any regions where typhoid is common recently? </s> User: Yes, I just returned from Africa. </s> Bot: It’s possible you have typhoid. A doctor can confirm it. </s>
+
+User: I’ve had a fever for a few days, and my stomach hurts. </s> Bot: Have you had any diarrhea or nausea? </s> User: Yes, I’ve had diarrhea and feel weak. </s> Bot: Have you traveled to areas where typhoid fever is common? </s> User: Yes, I was in India recently. </s> Bot: This sounds like typhoid. A doctor will need to confirm with a test. </s>
+
+User: My stomach hurts, and I’ve been running a fever. </s> Bot: Have you had diarrhea or any digestive issues? </s> User: Yes, I’ve had diarrhea. </s> Bot: Have you traveled to any places with a risk of typhoid? </s> User: Yes, I visited Southeast Asia. </s> Bot: You might have typhoid. Please visit a doctor for a proper diagnosis. </s>
+
+User: I feel weak, and I’ve had stomach pain and fever. </s> Bot: Have you had any other symptoms like diarrhea? </s> User: Yes, I’ve had diarrhea. </s> Bot: Did you travel to any areas where typhoid is common? </s> User: Yes, I was in Africa. </s> Bot: It could be typhoid. A doctor can confirm with a test. </s>
+
+User: I’ve had a fever for several days and feel very weak. </s> Bot: Have you experienced any stomach pain or digestive issues? </s> User: Yes, I have stomach pain and diarrhea. </s> Bot: Have you recently traveled to areas where typhoid is common? </s> User: Yes, I went to Southeast Asia a few weeks ago. </s> Bot: It sounds like you might have typhoid. You should see a doctor for testing. </s>
+
+User: I feel feverish and have stomach pain. </s> Bot: Do you also have diarrhea or nausea? </s> User: Yes, I’ve had diarrhea and some nausea. </s> Bot: Have you traveled to regions with a higher risk of typhoid? </s> User: Yes, I was in India recently. </s> Bot: You could have typhoid. A doctor will need to test you for confirmation. </s>
+
+User: I’ve been feeling feverish and nauseous for the past few days. </s> Bot: Have you had stomach pain or diarrhea as well? </s> User: Yes, I’ve had both. </s> Bot: Did you travel to any areas with a risk of typhoid recently? </s> User: Yes, I was in Southeast Asia last month. </s> Bot: You might have typhoid. It’s important to get tested by a doctor. </s>
+
+User: I have stomach cramps and a fever. </s> Bot: How long have you been feeling like this? </s> User: About five days now. </s> Bot: Have you had diarrhea or other digestive symptoms? </s> User: Yes, I’ve had diarrhea. </s> Bot: Have you recently traveled to places where typhoid is common? </s> User: Yes, I visited India last month. </s> Bot: You might have typhoid. A doctor can confirm with a test. </s>
+
+User: I feel weak and have had a fever for a few days. </s> Bot: Do you have any stomach pain or digestive issues? </s> User: Yes, I have stomach cramps and diarrhea. </s> Bot: Have you traveled to regions where typhoid is common? </s> User: Yes, I was in Southeast Asia recently. </s> Bot: You may have typhoid. A doctor can confirm through testing. </s>
+
+User: I’ve been feeling feverish and weak for a few days. </s> Bot: Have you had any stomach pain or digestive symptoms? </s> User: Yes, I’ve had stomach pain and diarrhea. </s> Bot: Have you traveled to areas where typhoid is common? </s> User: Yes, I was in India last month. </s> Bot: You could have typhoid. A doctor will need to confirm it with a test. </s>
+
+User: I have a fever, stomach cramps, and diarrhea. </s> Bot: How long have you had these symptoms? </s> User: For about a week now. </s> Bot: Have you recently traveled to any areas with a risk of typhoid? </s> User: Yes, I was in Southeast Asia. </s> Bot: It sounds like you might have typhoid. A doctor can confirm with a test. </s>
+
+User: I feel feverish and have stomach pain. </s> Bot: Have you had diarrhea or any other digestive symptoms? </s> User: Yes, I’ve had diarrhea. </s> Bot: Did you travel to any areas where typhoid is common? </s> User: Yes, I visited India recently. </s> Bot: This could be typhoid. A doctor will need to confirm with a test. </s>
+
+User: I’ve had a fever and stomach cramps for the past few days. </s> Bot: Have you experienced any other symptoms, like diarrhea or nausea? </s> User: Yes, I’ve had diarrhea. </s> Bot: Have you traveled to places where typhoid is common? </s> User: Yes, I was in Southeast Asia last month. </s> Bot: This could be typhoid. A doctor can confirm with a test. </s>
+
+User: I’ve been feeling feverish and weak with stomach pain. </s> Bot: Have you had diarrhea or nausea? </s> User: Yes, I’ve had diarrhea. </s> Bot: Have you recently traveled to places with a higher risk of typhoid? </s> User: Yes, I visited India. </s> Bot: You may have typhoid. A doctor will need to confirm it with a test. </s>
+
+User: I’ve been having a fever and stomach pain. </s> Bot: How long have you been feeling like this? </s> User: For about five days now. </s> Bot: Have you had any other symptoms, like diarrhea? </s> User: Yes, I’ve had diarrhea. </s> Bot: Have you traveled to any areas with a risk of typhoid recently? </s> User: Yes, I was in Southeast Asia. </s> Bot: It’s likely typhoid. Please see a doctor for testing. </s>
+
+User: I’ve been feeling feverish for the last few days. </s> Bot: Have you experienced any stomach issues, like cramps or diarrhea? </s> User: Yes, I’ve had stomach cramps and diarrhea. </s> Bot: Have you traveled to regions where typhoid is common? </s> User: Yes, I visited India recently. </s> Bot: You may have typhoid. A doctor can confirm with a test. </s>
+
+User: I feel weak and have had a fever for a few days. </s> Bot: Have you had any stomach pain or digestive symptoms? </s> User: Yes, I’ve had stomach cramps and diarrhea. </s> Bot: Did you recently travel to a place where typhoid is common? </s> User: Yes, I was in Southeast Asia. </s> Bot: It could be typhoid. You should visit a doctor for testing. </s>
+
+User: I’ve had stomach cramps, diarrhea, and a fever. </s> Bot: How long have you had these symptoms? </s> User: For about a week. </s> Bot: Have you traveled to any areas where typhoid is common? </s> User: Yes, I was in Southeast Asia last month. </s> Bot: It could be typhoid. A doctor can confirm it with a test. </s>
+
+User: I’ve been feeling feverish and nauseous. </s> Bot: Do you have any stomach pain or digestive issues? </s> User: Yes, I have stomach cramps and diarrhea. </s> Bot: Have you traveled to any areas where typhoid is common? </s> User: Yes, I visited India recently. </s> Bot: It’s possible you have typhoid. A doctor can confirm with a test. </s>
+
+User: I feel weak, and I’ve had a fever for a few days. </s> Bot: Do you have any stomach pain or diarrhea? </s> User: Yes, I’ve had stomach pain and diarrhea. </s> Bot: Have you recently traveled to areas where typhoid is common? </s> User: Yes, I was in Southeast Asia. </s> Bot: This could be typhoid. A doctor will need to confirm with a test. </s>
+
+User: I’ve had a fever and stomach cramps. </s> Bot: Have you experienced any other symptoms, like diarrhea? </s> User: Yes, I’ve had diarrhea. </s> Bot: Have you traveled to any places with a higher risk of typhoid? </s> User: Yes, I was in India. </s> Bot: It’s likely typhoid. Please visit a doctor for a test. </s>
+
+User: I’ve been feeling feverish and nauseous. </s> Bot: Have you had any stomach pain or diarrhea? </s> User: Yes, I’ve had stomach pain and diarrhea. </s> Bot: Did you travel to any areas where typhoid is common? </s> User: Yes, I was in Southeast Asia recently. </s> Bot: You should see a doctor to confirm if it's typhoid. </s>
+
+User: I feel weak and have stomach pain and a fever. </s> Bot: Have you had diarrhea or any other digestive issues? </s> User: Yes, I’ve had diarrhea. </s> Bot: Have you traveled to places where typhoid is common? </s> User: Yes, I visited Southeast Asia. </s> Bot: It sounds like typhoid. A doctor can confirm it with a test. </s>
+
+User: I’ve had a fever and stomach cramps for the past few days. </s> Bot: Do you have any diarrhea or nausea? </s> User: Yes, I’ve had both. </s> Bot: Have you traveled to regions where typhoid is common? </s> User: Yes, I was in India last month. </s> Bot: This could be typhoid. A doctor will need to confirm it with a test. </s>

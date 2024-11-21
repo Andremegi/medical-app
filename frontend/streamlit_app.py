@@ -68,6 +68,9 @@ def main():
 
 
     }
+    .stSidebar{
+
+    }
     </style>
     """,
         unsafe_allow_html=True,

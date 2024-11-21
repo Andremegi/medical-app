@@ -22,24 +22,39 @@ def main():
     if st.button("Predict"):
 
         response_text = requests.get(url_text, params).json()
-        st.write(
-            f"Your deseais is {response_text['disease']} with a probability = {round(float(response_text['probability']), 2)} %."
-        )
+
+       # st.write(f"Your deseais is {response_text['disease']} with a probability = {round(float(response_text['probability']), 2)} %." )
+
         st.markdown(
         "<h3 style='margin:1; padding:1'>Your desease is:</h3>",
         unsafe_allow_html=True,
             )
 
+        #Separating the data to make our dataset
         probs = (round(float(response_text['probability']), 2), (100-round(float(response_text['probability']), 2)))
-        diseases = [response_text['disease'] , 'Other diseases']
+        diseases = [response_text['disease'] , 'Cumulative probability for 23 other diseases']
         text_df= pd.DataFrame([probs] , columns= diseases, index=[0])
         st.metric(' ',response_text['disease'], ' ')
 
-        st.bar_chart(text_df)
+        st.markdown(
+        "<h4 style='text-align: center; margin:0; padding:0.5'>Prediction Probabilities</h4>",
+        unsafe_allow_html=True)
+        st.bar_chart(text_df,y_label='Deseases', x_label='Probability (%)', horizontal=True, color = ['#FFF8DC', '#FF7F50'])
+
+
 
     else:
         st.write("Please press the button so I can make a prediction.")
 
+    st.markdown(
+        "<h3 style='text-align:center; margin:0; padding:0'>Still have questions on you health status? Try out our Doctor chatbot ⬇️ <br /><br /></h3>",
+        unsafe_allow_html=True,
+            )
+
+    col1,col2,col3 = st.columns(3)
+
+    if col2.button("Doctor Chatbot", use_container_width=True):
+        st.switch_page("pages/llm_doctor_chatbot.py")
 
     st.markdown(
         """
@@ -58,7 +73,6 @@ def main():
         color: white;
     }
     .stButton > button:hover {
-        background-color: #FFFFFF; /* WHITE */
         color: #4daab2;
         border-style: solid;
         border-radius: 8px;

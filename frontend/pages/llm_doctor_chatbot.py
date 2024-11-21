@@ -7,7 +7,8 @@ from modules.nav import Navbar
 def main():
     Navbar()
 
-    st.title("Hugging face Chatbot [beta]")
+    #with st.container(border=False):
+    st.title("Hugging face Chatbot")
     st.write("Please, describe your symtoms so I can predict your disease")
 
     if "chat_history_api" not in st.session_state:
@@ -16,7 +17,7 @@ def main():
     if "chat_history_area" not in st.session_state:
         st.session_state.chat_history_area = ""
 
-    # Function to call the API (assuming you are running it locally on a FastAPI server)
+        # Function to call the API (assuming you are running it locally on a FastAPI server)
     def call_api(user_input, chat_history):
         response = requests.get(
             "https://backend-1041725143942.europe-west1.run.app/chat-bot",
@@ -32,7 +33,7 @@ def main():
     markdown_container = st.empty()
     markdown_container.markdown(st.session_state.chat_history_area)
 
-    # When the user clicks the 'Ask' button
+        # When the user clicks the 'Ask' button
     if button and user_input:
         # Append the user's input to the chat history and display it immediately
         st.session_state.chat_history_area += f"\nUSER :: {user_input}\n"
@@ -48,6 +49,38 @@ def main():
         # Append bot response to the chat history
         st.session_state.chat_history_area += f"\nDOCTOR AI :: {response}\n"
         markdown_container.markdown(st.session_state.chat_history_area)
+    st.markdown(
+        """
+    <style>
+    [data-testid="stVerticalBlock"] {
+        border-style: solid;
+        border-color:  #4daab2;
+        border-radius: 10px;
+        width: 750px;
+        height: 100px;
+        padding: 20px;
+        background-image: url('https://img.freepik.com/vector-gratis/dibujar-mano-elementos-medicos-boceto-diseno-dia-mundial-donante-sangre_1035-23355.jpg?t=st=1732197004~exp=1732200604~hmac=415a4943f6fa49fd81c7bd7ead393d9ae3e6048302c4a8719949e8452341955b&w=826');
 
+
+
+    }
+    .stButton > button {
+        background-color: #4daab2;
+        color: white;
+    }
+    .stButton > button:hover {
+        background-color: #FFFFFF; /* WHITE */
+        color: #4daab2;
+        border-style: solid;
+        border-radius: 8px;
+        border-color: #4daab2;
+
+
+    }
+    }
+    </style>
+    """,
+        unsafe_allow_html=True,
+    )
 if __name__ == "__main__":
     main()

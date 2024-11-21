@@ -52,4 +52,28 @@ User: I’ve noticed some red patches on my skin that are flaky and itchy. </s> 
 
 User: I have itchy patches on my skin that are red and flaky. </s> Bot: Where are the patches located? </s> User: On my elbows and knees. </s> Bot: How long have you had them? </s> User: About two months. </s> Bot: Does stress or cold weather make it worse? </s> User: Yes, both seem to make it worse. </s> Bot: Does anyone in your family have psoriasis? </s> User: Yes, my father has psoriasis. </s> Bot: This could be psoriasis, but a doctor should confirm it. </s>
 
-User: I’ve noticed dry, itchy patches on my skin that are red and flaky. </s> Bot: Where are they located? </s> User: On my elbows and knees. </s> Bot: How long have you had them? </s> User: About two months. </s> Bot: Does stress or cold weather make it worse? </s> User: Yes, both make it worse. </s> Bot: Does anyone in your family have psoriasis? </s> Bot: Does anyone in your family have psoriasis? </s>
+User: I’ve noticed dry, itchy patches on my skin that are red and flaky. </s> Bot: Where are they located? </s> User: On my elbows and knees. </s> Bot: How long have you had them? </s> User: About two months. </s> Bot: Does stress or cold weather make it worse? </s> User: Yes, both make it worse. </s> Bot: Does anyone in your family have psoriasis? </s>
+
+User: I’ve noticed red, dry patches on my skin. </s> Bot: Can you tell me where these patches are located? </s> User: They're mostly on my elbows and knees. </s> Bot: Do they feel itchy or irritated? </s> User: Yes, they itch a lot. </s> Bot: It could be psoriasis, but we'll need to confirm. Have you had any similar issues in the past? </s>
+
+User: My skin is flaky and red, and it keeps getting worse. </s> Bot: Where exactly is the flakiness happening? </s> User: It's mostly on my scalp and lower back. </s> Bot: Does it itch or cause any discomfort? </s> User: Yes, it's very itchy and sometimes painful. </s> Bot: This sounds like psoriasis. Have you had any family members with similar issues? </s>
+
+User: I have scaly patches on my skin that won’t go away. </s> Bot: Where are these patches located? </s> User: They are on my elbows, knees, and a bit on my scalp. </s> Bot: Are they causing any pain or irritation? </s> User: Yes, they're itchy and sometimes they bleed when scratched. </s> Bot: Psoriasis might be the cause. Have you noticed any triggers, like stress or weather changes? </s>
+
+User: I’m dealing with red patches on my skin that are constantly dry. </s> Bot: Where are these patches? </s> User: Mostly on my arms and legs. </s> Bot: Do you experience any itching or irritation? </s> User: Yes, they itch a lot, especially when it’s colder. </s> Bot: This could be psoriasis. Have you had similar issues before? </s>
+
+User: My skin is getting more patchy and flaky every day. </s> Bot: Where are these patches located? </s> User: On my elbows and knees. </s> Bot: Do they itch or cause any discomfort? </s> User: Yes, they itch and sometimes feel sore. </s> Bot: This sounds like psoriasis. Have you noticed anything that makes it worse, like stress or dry air? </s>
+
+User: I’ve had red patches on my skin for a while now. </s> Bot: Where are these patches located? </s> User: Mostly on my scalp and behind my ears. </s> Bot: Are they itchy or painful? </s> User: They’re very itchy, and it feels sore sometimes. </s> Bot: Psoriasis could be the cause. Have you tried any treatments for it? </s>
+
+User: I have scaly patches on my skin that won’t go away. </s> Bot: Where are these patches located? </s> User: Mostly on my elbows, knees, and back. </s> Bot: Are they causing any pain or irritation? </s> User: Yes, they’re itchy and sometimes they crack open and bleed. </s> Bot: It could be psoriasis. Have you noticed any patterns, like flare-ups during stressful times? </s>
+
+User: My skin is dry and flaky, and it’s getting worse. </s> Bot: Where is the dryness happening? </s> User: On my knees, elbows, and lower back. </s> Bot: Do you experience any itching or irritation? </s> User: Yes, it’s really itchy, and sometimes it hurts to touch. </s> Bot: This may be psoriasis. Have you had similar issues in the past? </s>
+
+User: I’ve noticed some red, scaly patches on my skin. </s> Bot: Can you tell me where these patches are? </s> User: They're mostly on my scalp, elbows, and knees. </s> Bot: Do they itch or cause discomfort? </s> User: Yes, they itch a lot, especially when I’m stressed. </s> Bot: This sounds like psoriasis. Have you tried using any moisturizing creams or medications for it? </s>
+
+User: My skin has been really dry, and I have scaly patches. </s> Bot: Where are these patches located? </s> User: They’re mostly on my arms and legs. </s> Bot: Do they cause itching or irritation? </s> User: Yes, they’re very itchy and sometimes feel painful. </s> Bot: This might be psoriasis. Have you noticed anything that worsens the condition? </s>
+
+User: I’ve had flaky, red patches on my skin for a while now. </s> Bot: Where are these patches located? </s> User: Mostly on my knees, elbows, and lower back. </s> Bot: Are they causing any discomfort, like itching or soreness? </s> User: Yes, they’re very itchy, and they sometimes crack open. </s> Bot: It could be psoriasis. Have you had any family members with similar issues? </s>
+
+User: I have scaly, red patches on my skin. </s> Bot: Where are these patches? </s> User: Mostly on my scalp, elbows, and knees. </s> Bot: Do they cause any pain or irritation? </s> User: Yes, they’re itchy, and they sometimes crack and bleed. </s> Bot: This could be psoriasis. Have you noticed anything that triggers the flare-ups? </s>

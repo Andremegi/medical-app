@@ -59,7 +59,6 @@ def main():
         width: 750px;
         height: 100px;
         padding: 20px;
-        background-image: url('https://img.freepik.com/vector-gratis/dibujar-mano-elementos-medicos-boceto-diseno-dia-mundial-donante-sangre_1035-23355.jpg?t=st=1732197004~exp=1732200604~hmac=415a4943f6fa49fd81c7bd7ead393d9ae3e6048302c4a8719949e8452341955b&w=826');
 
 
 

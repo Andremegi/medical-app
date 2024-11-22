@@ -5,7 +5,6 @@ from modules.nav import Navbar
 
 def colors(array):
     array.sort()
-    print(array)
 
     color=[]
     for desease in array:
@@ -32,18 +31,19 @@ def main():
 
     if st.button("Predict"):
 
+
         response_text = requests.get(url_text, params).json()
 
 
-       # st.write(f"Your deseais is {response_text['disease']} with a probability = {round(float(response_text['probability']), 2)} %." )
+        # st.write(f"Your deseais is {response_text['disease']} with a probability = {round(float(response_text['probability']), 2)} %." )
 
 
         st.markdown(
-        "<h3 style='margin:1; padding:1'>Your desease is:</h3>",
-        unsafe_allow_html=True,
-            )
+            "<h3 style='margin:1; padding:1'>It seems your desease could be :</h3>",
+            unsafe_allow_html=True,
+                )
 
-        #Separating the data to make our dataset
+            #Separating the data to make our dataset
         probs = (round(float(response_text['probability']), 2), (100-round(float(response_text['probability']), 2)))
         diseases = [response_text['disease'] , 'Cumulative probability for 23 other deseases']
         text_df= pd.DataFrame([probs] , columns= diseases, index=[0])
@@ -51,9 +51,10 @@ def main():
         graph_colors=  colors(diseases)
         #print(graph_colors)
         st.markdown(
-        "<h4 style='text-align: center; margin:0; padding:0.5'>Prediction Probabilities</h4>",
-        unsafe_allow_html=True)
+            "<h4 style='text-align: center; margin:0; padding:0.5'>Prediction Probabilities</h4>",
+            unsafe_allow_html=True)
         st.bar_chart(text_df,y_label='Deseases', x_label='Probability (%)', horizontal=True, color=graph_colors)
+
 
 
 
@@ -91,9 +92,8 @@ def main():
         border-style: solid;
         border-radius: 8px;
         border-color: #4daab2;
-
-
     }
+
     }
     </style>
     """,

@@ -10,7 +10,7 @@ def main():
     with st.container(key='interface'):
     #with st.container(border=False):
         st.title("Hugging face Chatbot")
-        st.write("Please, describe your symtoms so I can predict your disease")
+        st.write("Please, describe your symtoms so we can talk about your possible disease")
 
         if "chat_history_api" not in st.session_state:
             st.session_state.chat_history_api = ""
@@ -51,8 +51,7 @@ def main():
             st.session_state.chat_history_area += f"\n**DOCTOR AI** : {response}\n"
             markdown_container.markdown(st.session_state.chat_history_area)
 
-    dir_path = os.path.dirname(__file__)
-    image_folder_path = os.path.join(dir_path,"..", "docs", "incroyable.jpg")
+
     st.markdown(
     f"""
     <style>

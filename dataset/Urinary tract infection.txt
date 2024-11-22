@@ -1,0 +1,79 @@
+User: I've been feeling a constant urge to urinate, but not much comes out. </s> Bot: That sounds uncomfortable. Have you also experienced any pain or burning while urinating? </s> User: Yes, there’s a burning sensation every time I go. </s> Bot: How long have you been feeling these symptoms? </s> User: For about two days now. </s> Bot: It could be a urinary tract infection. Have you had one before? </s> User: Yes, I’ve had a UTI once before. </s> Bot: Thanks for sharing. We should get you tested for a UTI, as it sounds like your symptoms fit. </s>
+
+User: I’ve been urinating frequently and it’s been painful. </s> Bot: How long has this been going on? </s> User: For about three days now. </s> Bot: Do you notice any blood in your urine or cloudy urine? </s> User: Yes, my urine looks a little cloudy, but no blood. </s> Bot: That could be a sign of a UTI. It would be best to get a urine test done to confirm. </s>
+
+User: I’ve been having lower abdominal pain and feeling like I need to pee all the time. </s> Bot: That sounds uncomfortable. Do you also have any pain or burning while urinating? </s> User: Yes, there’s a burning sensation every time. </s> Bot: Have you been drinking enough water? Sometimes dehydration can cause similar symptoms. </s> User: I’ve been drinking water, but it doesn’t seem to help. </s> Bot: Given your symptoms, it might be a UTI. I recommend seeing a doctor for a urine test. </s>
+
+User: I’m feeling pressure in my lower abdomen and I have to urinate often, but only a little comes out. </s> Bot: That sounds frustrating. Have you experienced any pain while urinating? </s> User: Yes, there’s a slight burning sensation when I pee. </s> Bot: It could be a urinary tract infection. How long have these symptoms been occurring? </s> User: For about two days now. </s> Bot: You should get a urine test to confirm. UTIs are treatable with antibiotics. </s>
+
+User: I’ve been feeling an urgent need to urinate, and it’s been very painful. </s> Bot: Have you noticed any blood in your urine or any changes in color? </s> User: No blood, but my urine is a bit darker than usual. </s> Bot: That’s common with UTIs. How long have you been experiencing these symptoms? </s> User: About three days now. </s> Bot: It’s likely a UTI. You should visit a healthcare provider for a urine test and treatment. </s>
+
+User: My urine smells strange, and I feel pain when I go to the bathroom. </s> Bot: That can be a sign of a UTI. Have you been drinking enough fluids? </s> User: I drink water, but it still doesn’t seem to help. </s> Bot: When did the symptoms start? </s> User: About two days ago. </s> Bot: A urine test will help confirm whether it’s a UTI. If it is, antibiotics will clear it up. </s>
+
+User: I feel like I have to pee all the time, but when I do, it’s just a little bit. </s> Bot: That sounds uncomfortable. Do you experience any pain or discomfort while urinating? </s> User: Yes, it burns when I pee. </s> Bot: These could be symptoms of a urinary tract infection. Have you had one before? </s> User: Yes, I’ve had a UTI in the past. </s> Bot: Given your symptoms and history, it’s a good idea to see a doctor for a urine test. </s>
+
+User: I’ve been feeling constant pressure in my bladder and painful urination. </s> Bot: That sounds uncomfortable. Have you noticed any changes in the color or smell of your urine? </s> User: Yes, it’s a bit cloudy and has a strong odor. </s> Bot: Those are common signs of a UTI. How long have you had these symptoms? </s> User: About four days now. </s> Bot: It’s best to get a urine test done. UTIs are treatable with antibiotics. </s>
+
+User: I’ve been urinating a lot more than usual, and it’s very painful. </s> Bot: Do you also feel any discomfort in your lower abdomen? </s> User: Yes, there’s pressure and some pain. </s> Bot: Have you noticed any blood in your urine? </s> User: No blood, just pain. </s> Bot: It could still be a UTI. A doctor can confirm with a urine test and give you treatment. </s>
+
+User: I have a burning sensation when I urinate, and I’m also feeling very fatigued. </s> Bot: That sounds like it could be a UTI. Have you had any other symptoms, like fever or chills? </s> User: No, just the burning and fatigue. </s> Bot: How long have you been feeling like this? </s> User: For about three days now. </s> Bot: It’s best to see a doctor for a urine test to confirm. UTIs are treatable with antibiotics. </s>
+
+User: I’ve been urinating frequently, and it’s very painful. </s> Bot: How long have you had these symptoms? </s> User: For two days. </s> Bot: Do you feel any discomfort or pressure in your lower abdomen? </s> User: Yes, there’s pressure and pain. </s> Bot: It sounds like a UTI. You should get a urine test to confirm and start treatment if needed. </s>
+
+User: I’ve been feeling a constant need to urinate and it burns when I do. </s> Bot: Have you noticed any blood in your urine or changes in color? </s> User: No, but the urine looks a bit cloudy. </s> Bot: That could be a sign of a UTI. How long have you been feeling this way? </s> User: About two days now. </s> Bot: A urine test can confirm if it’s a UTI. It’s treatable with antibiotics. </s>
+
+User: I’ve been feeling pain in my lower back and when I urinate. </s> Bot: How long have these symptoms been present? </s> User: About three days. </s> Bot: Do you have any other symptoms like fever or chills? </s> User: No fever, but I do feel weak. </s> Bot: It could be a UTI, especially with the pain while urinating. A urine test will confirm. </s>
+
+User: I’ve been feeling a constant urge to pee, but when I try, nothing comes out. </s> Bot: That sounds uncomfortable. Have you been experiencing any pain or burning? </s> User: Yes, there’s a burning sensation. </s> Bot: How long have you been experiencing these symptoms? </s> User: For about two days. </s> Bot: It could be a UTI. A urine test can confirm and help us start treatment. </s>
+
+User: I’ve been urinating frequently, and it hurts each time. </s> Bot: How long have these symptoms been going on? </s> User: For a couple of days now. </s> Bot: Do you notice any blood in your urine? </s> User: No, just pain and urgency. </s> Bot: It could be a UTI. You should get a urine test to confirm. </s>
+
+User: I feel a constant pressure in my bladder and pain when I urinate. </s> Bot: Have you noticed any changes in your urine, like cloudiness or odor? </s> User: Yes, it smells strong, and it looks cloudy. </s> Bot: Those are common signs of a UTI. It’s important to get a urine test. </s>
+
+User: I’ve been feeling pain in my pelvic region and frequent urination. </s> Bot: How long have these symptoms been bothering you? </s> User: For the past three days. </s> Bot: You might have a UTI. Have you had one before? </s> User: Yes, I’ve had a UTI once. </s> Bot: A urine test will confirm if it's a UTI and help determine the best treatment. </s>
+
+User: I’m experiencing a sharp pain when I urinate. </s> Bot: Does the pain happen every time you urinate? </s> User: Yes, every time. </s> Bot: Have you noticed any changes in the color of your urine? </s> User: No, just the pain. </s> Bot: It sounds like a UTI. You should get a urine test to confirm and start treatment. </s>
+
+User: I’ve been urinating a lot more often, and it’s painful each time. </s> Bot: Have you been drinking enough water? Sometimes dehydration can worsen the symptoms. </s> User: Yes, I’ve been drinking water, but it doesn’t help. </s> Bot: It sounds like a UTI. A urine test will confirm. </s>
+
+User: I’m feeling bloated and there’s pain when I urinate. </s> Bot: Have you had any other symptoms like fever or chills? </s> User: No fever, just the bloating and pain. </s> Bot: It’s likely a UTI. You should see a doctor for a urine test. </s>
+
+User: I’ve been feeling pain when I urinate and have been going to the bathroom more often than usual. </s> Bot: How long has this been happening? </s> User: About four days now. </s> Bot: Do you notice any changes in the color of your urine? </s> User: It’s a little darker than usual. </s> Bot: That could be a sign of a UTI. A urine test can help confirm. </s>
+
+User: Every time I urinate, I feel like something is stuck, and it's really painful. </s> Bot: That sounds quite uncomfortable. Do you also feel any pressure in your lower abdomen? </s> User: Yes, there’s pressure as well. </s> Bot: It could be a UTI. How long have you been experiencing these symptoms? </s> User: A few days now. </s> Bot: I recommend getting a urine test to confirm. It’s likely treatable with antibiotics. </s>
+
+User: I’ve been urinating more frequently, but there’s not much that comes out. </s> Bot: That sounds uncomfortable. Are you also experiencing any burning or pain? </s> User: Yes, there’s a burning sensation each time. </s> Bot: It could be a UTI. How long has this been going on? </s> User: For about two days. </s> Bot: You should get a urine test done to confirm. UTIs can usually be treated with antibiotics. </s>
+
+User: I’ve been feeling a constant urge to urinate, but when I go, it’s painful. </s> Bot: That sounds unpleasant. Have you noticed any changes in your urine, like color or smell? </s> User: Yes, it smells stronger than usual. </s> Bot: Those could be signs of a UTI. How long have these symptoms been bothering you? </s> User: About three days. </s> Bot: It’s a good idea to get a urine test to confirm whether it’s a UTI. </s>
+
+User: I’ve been feeling pressure in my bladder and pain when I urinate. </s> Bot: Do you have any other symptoms, like fever or fatigue? </s> User: No fever, just the pain and pressure. </s> Bot: It sounds like a UTI. How long have you been feeling this way? </s> User: For the last few days. </s> Bot: A urine test should help confirm and get you the proper treatment. </s>
+
+User: There’s pain when I urinate, and I feel like I have to go all the time. </s> Bot: Are you drinking plenty of water? Dehydration can sometimes make these symptoms worse. </s> User: Yes, I’ve been drinking water, but it’s still painful. </s> Bot: How long have you been feeling this way? </s> User: A few days now. </s> Bot: It might be a UTI. A urine test can help confirm and guide your treatment. </s>
+
+User: I’ve been feeling really fatigued and I have a burning sensation when I pee. </s> Bot: That could be a sign of a UTI. How long have these symptoms been going on? </s> User: For about two days. </s> Bot: Do you also have any changes in the color of your urine? </s> User: Yes, it looks a bit cloudy. </s> Bot: A urine test would be a good next step. UTIs are treatable with antibiotics. </s>
+
+User: I’ve been urinating frequently, but I don’t feel like I’m emptying my bladder completely. </s> Bot: That sounds frustrating. Do you also feel pain or a burning sensation when you urinate? </s> User: Yes, it burns. </s> Bot: It could be a UTI. How long have you been experiencing these symptoms? </s> User: About two days. </s> Bot: A urine test will confirm if it’s a UTI. It’s easily treatable. </s>
+
+User: I feel a lot of pressure in my bladder, and it’s painful when I urinate. </s> Bot: Have you been feeling any feverish symptoms or chills? </s> User: No, just the pressure and pain. </s> Bot: It could be a UTI. How long have you had these symptoms? </s> User: For about three days. </s> Bot: A urine test will help confirm and allow you to get the right treatment. </s>
+
+User: I’ve been feeling constant discomfort in my lower abdomen, and it’s painful when I go to the bathroom. </s> Bot: Have you had any fever or chills accompanying the pain? </s> User: No, just the pain and discomfort. </s> Bot: How long have you had these symptoms? </s> User: For a few days now. </s> Bot: A UTI could be the cause. A urine test will confirm, and treatment can start immediately. </s>
+
+User: I’ve been feeling pressure in my bladder, and there’s burning when I pee. </s> Bot: That sounds painful. How long have you been dealing with these symptoms? </s> User: A few days now. </s> Bot: It could be a urinary tract infection. You should get a urine test to confirm and start treatment. </s>
+
+User: I’m urinating frequently, and each time it’s painful. </s> Bot: Have you noticed any changes in the color of your urine, like cloudiness or blood? </s> User: No blood, but it’s a bit cloudy. </s> Bot: Cloudy urine can be a sign of a UTI. How long have you been experiencing these symptoms? </s> User: For about three days. </s> Bot: It’s best to get a urine test to confirm. UTIs can be treated effectively with antibiotics. </s>
+
+User: I’ve been feeling weak and there’s pain when I urinate. </s> Bot: How long have you had these symptoms? </s> User: About two days now. </s> Bot: Have you had any changes in the color or smell of your urine? </s> User: Yes, it has a strong odor. </s> Bot: It could be a UTI. A urine test can confirm it. </s>
+
+User: Every time I go to the bathroom, it burns and it feels like I need to go again right away. </s> Bot: That sounds very uncomfortable. Have you had any fever or chills with it? </s> User: No, just the burning and urgency. </s> Bot: How long have these symptoms been happening? </s> User: For about three days. </s> Bot: A urine test will confirm if it’s a UTI, and antibiotics can help you recover quickly. </s>
+
+User: I’m urinating a lot, but only a small amount comes out each time, and it’s painful. </s> Bot: Have you noticed any blood or changes in the color of your urine? </s> User: No blood, just some cloudiness. </s> Bot: Cloudy urine is a common sign of a UTI. How long have you had these symptoms? </s> User: For about two days now. </s> Bot: A urine test will confirm if it’s a UTI. It’s usually treatable with antibiotics. </s>
+
+User: I feel pressure in my bladder and there’s pain every time I urinate. </s> Bot: Have you been drinking enough water? Sometimes dehydration can cause similar symptoms. </s> User: Yes, I’ve been drinking water, but it doesn’t help. </s> Bot: It could be a UTI. How long have you had these symptoms? </s> User: About two days. </s> Bot: You should get a urine test to confirm. UTIs are treatable with antibiotics. </s>
+
+User: I’m feeling constant discomfort in my pelvic region, and urination is painful. </s> Bot: Have you had any fever, chills, or fatigue along with this? </s> User: No, just the pelvic pain and frequent urination. </s> Bot: How long have you had these symptoms? </s> User: For about three days. </s> Bot: It sounds like a UTI. A urine test will confirm, and you can start treatment. </s>
+
+User: I feel a burning sensation every time I go to the bathroom, and I have an urgent need to urinate. </s> Bot: That sounds very uncomfortable. How long has this been going on? </s> User: For two days now. </s> Bot: Are you noticing any changes in the color or smell of your urine? </s> User: Yes, it smells stronger than usual. </s> Bot: This could be a UTI. A urine test will confirm and give you a treatment plan. </s>
+
+User: There’s a sharp pain when I urinate and I feel like I need to go all the time. </s> Bot: That’s very uncomfortable. Do you have any other symptoms, like fever or blood in your urine? </s> User: No blood, just pain and frequent urination. </s> Bot: How long have you been experiencing these symptoms? </s> User: For about three days. </s> Bot: A urine test will help confirm whether it’s a UTI and guide the right treatment. </s>
+
+User: I’ve been feeling bloated and it’s painful when I urinate. </s> Bot: Have you noticed any other symptoms, such as fever or changes in urine color? </s> User: No fever, just bloating and pain. </s> Bot: It might be a UTI. How long have you been feeling this way? </s> User: For about two days. </s> Bot: A urine test should confirm, and it can be treated with antibiotics. </s>

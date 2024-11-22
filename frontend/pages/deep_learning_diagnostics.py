@@ -3,6 +3,17 @@ import pandas as pd
 import requests
 from modules.nav import Navbar
 
+def colors(array):
+    array.sort()
+    print(array)
+
+    color=[]
+    for desease in array:
+        if desease == 'Cumulative probability for 23 other deseases':
+            color.append('#FFF8DC')
+        else :
+            color.append('#FF7F50')
+    return color
 
 def main():
     Navbar()
@@ -34,14 +45,15 @@ def main():
 
         #Separating the data to make our dataset
         probs = (round(float(response_text['probability']), 2), (100-round(float(response_text['probability']), 2)))
-        diseases = [response_text['disease'] , 'Cumulative probability for 23 other diseases']
+        diseases = [response_text['disease'] , 'Cumulative probability for 23 other deseases']
         text_df= pd.DataFrame([probs] , columns= diseases, index=[0])
         st.metric(' ',response_text['disease'], ' ')
-
+        graph_colors=  colors(diseases)
+        #print(graph_colors)
         st.markdown(
         "<h4 style='text-align: center; margin:0; padding:0.5'>Prediction Probabilities</h4>",
         unsafe_allow_html=True)
-        st.bar_chart(text_df,y_label='Deseases', x_label='Probability (%)', horizontal=True, color = ['#FFF8DC', '#FF7F50'])
+        st.bar_chart(text_df,y_label='Deseases', x_label='Probability (%)', horizontal=True, color=graph_colors)
 
 
 

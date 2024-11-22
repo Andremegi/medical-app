@@ -22,38 +22,40 @@ def main():
 
     txt = st.text_area(
         "Write your symptoms here",
-        """
-
-        """,
+        """""",
     )
     params = {"symptoms": txt}
     url_text = "https://backend-1041725143942.europe-west1.run.app/symptoms"
 
     if st.button("Predict"):
+        if txt == '' or txt== ' ':
+            st.error('##### ⚠️Please describe your symptoms above')
+
+        if txt != ' ' and txt != '':
+            st.success("##### I'm working on your diagnosis")
+
+            response_text = requests.get(url_text, params).json()
 
 
-        response_text = requests.get(url_text, params).json()
+            # st.write(f"Your deseais is {response_text['disease']} with a probability = {round(float(response_text['probability']), 2)} %." )
 
 
-        # st.write(f"Your deseais is {response_text['disease']} with a probability = {round(float(response_text['probability']), 2)} %." )
+            st.markdown(
+                "<h3 style='margin:1; padding:1'>It seems your desease could be:</h3>",
+                unsafe_allow_html=True,
+                    )
 
-
-        st.markdown(
-            "<h3 style='margin:1; padding:1'>It seems your desease could be :</h3>",
-            unsafe_allow_html=True,
-                )
-
-            #Separating the data to make our dataset
-        probs = (round(float(response_text['probability']), 2), (100-round(float(response_text['probability']), 2)))
-        diseases = [response_text['disease'] , 'Cumulative probability for 23 other deseases']
-        text_df= pd.DataFrame([probs] , columns= diseases, index=[0])
-        st.metric(' ',response_text['disease'], ' ')
-        graph_colors=  colors(diseases)
-        #print(graph_colors)
-        st.markdown(
-            "<h4 style='text-align: center; margin:0; padding:0.5'>Prediction Probabilities</h4>",
-            unsafe_allow_html=True)
-        st.bar_chart(text_df,y_label='Deseases', x_label='Probability (%)', horizontal=True, color=graph_colors)
+                #Separating the data to make our dataset
+            probs = (round(float(response_text['probability']), 2), (100-round(float(response_text['probability']), 2)))
+            diseases = [response_text['disease'] , 'Cumulative probability for 23 other deseases']
+            text_df= pd.DataFrame([probs] , columns= diseases, index=[0])
+            st.metric(' ',response_text['disease'], ' ')
+            graph_colors=  colors(diseases)
+            #print(graph_colors)
+            st.markdown(
+                "<h4 style='text-align: center; margin:0; padding:0.5'>Prediction Probabilities</h4>",
+                unsafe_allow_html=True)
+            st.bar_chart(text_df,y_label='Deseases', x_label='Probability (%)', horizontal=True, color=graph_colors)
 
 
 
